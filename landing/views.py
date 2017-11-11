@@ -14,10 +14,10 @@ def landing(request):
         print(data["name"])
 
         new_form = form.save()
-    return render(request, 'landing\landing.html', locals())
+    return render(request, 'landing/landing.html', locals())
 
 def home(request):
     products_images = ProductImage.objects.filter(is_active=True, is_main=True, product__is_active=True)
     products_images_develop = products_images.filter(product__category__id=1)
     products_images_pr = products_images.filter(product__category__id=2)
-    return render(request, 'landing\home.html', locals())
+    return render(request, 'landing/home.html', locals())
