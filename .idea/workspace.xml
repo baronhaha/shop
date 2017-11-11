@@ -39,8 +39,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/proba/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="149" column="1" lean-forward="false" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
+            <state relative-caret-position="131">
+              <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -179,8 +179,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1203" />
-    <option name="y" value="155" />
+    <option name="x" value="689" />
+    <option name="y" value="157" />
     <option name="width" value="1399" />
     <option name="height" value="906" />
   </component>
@@ -303,7 +303,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1203" y="155" width="1399" height="906" extended-state="0" />
+    <frame x="689" y="157" width="1399" height="906" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1588367" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -710,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/proba/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="149" column="1" lean-forward="false" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
+        <state relative-caret-position="131">
+          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding />
         </state>
       </provider>
