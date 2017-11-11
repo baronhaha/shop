@@ -1,0 +1,66 @@
+
+{% load static %}
+
+
+
+
+
+<div class="container top-container">
+         <div class="row">
+
+             <div class="col-lg-8 col-lg-offset-2">
+
+
+               <div class="pulse">
+                   <h1 class="title">Мы открылись!</h1>
+                   <h1 class="title">Заявки на разработку сайта оставляйте в форме ниже</h1>
+               </div>
+
+
+
+                 <form action="" method="post" class="form-inline text-center">{% csrf_token %}
+                   <div class="form-group">
+                       <label>Ваше имя: </label>
+                       <input name="{{ form.name.name }}" class="form-control">
+                   </div>
+                   <div class="form-group">
+                       <label>Ваш email: </label>
+                       <input type="email" name="{{ form.email.name }}" class="form-control">
+                   </div>
+                     <button type="submit" class="btn btn-primary">Отправить</button>
+
+                 </form>
+
+                 <div class="center">
+                     <div class="stage">
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                    <div class="layer"></div>
+                 </div>
+
+                </div>
+
+
+
+              </div>
+
+
+         </div>
+</div>

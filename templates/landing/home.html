@@ -1,0 +1,55 @@
+ {% extends 'base.html' %}
+{% load static %}
+
+ {% block content %}
+   <form id="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}
+
+                        </form>
+
+
+
+
+
+
+     <div class="section section1 development-container">
+       <div class="container">
+               <div class="top-bottom">
+                    {% include 'landing/container.html' %}
+               </div>
+
+
+           <div class="row">
+               <div class="col-lg-12">
+                  <h1 class="title">
+                   Разработка сайта и фирменного стиля
+                  </h1>
+               </div>
+
+               {% for product_image in products_images_develop %}
+                   {% include 'landing/product_item.html' %}
+               {% endfor %}
+           </div>
+       </div>
+     </div>
+
+
+
+     <div class="section section2 pr-container">{% csrf_token %}
+       <div class="container">
+           <div class="row">
+           <div class="col-lg-12">
+               <h1 class="title">
+                   Продвижение сайта, реклама и оптимизация
+               </h1>
+           </div>
+               {% for product_image in products_images_pr %}
+               {% include 'landing/product_item.html' %}
+             {% endfor %}
+
+           </div>
+       </div>
+     </div>
+
+
+
+ {% endblock %}

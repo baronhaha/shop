@@ -1,0 +1,1 @@
+@"c:\proba\ferro\scripts\python.exe" "c:\proba\ferro\Scripts\markdown_py" %*
