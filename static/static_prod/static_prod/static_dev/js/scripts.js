@@ -26,16 +26,16 @@ $(document).ready(function(){
                   if (data.products_total_nmb || data.products_total_nmb == 0){
                      $('#basket_total_nmb').text("("+data.products_total_nmb+")");
                       console.log(data.products);
-                      $('.basketbutton').html(result).show();
+
                       $('.basket-items ul').html("");
+                      $('.basketbutton ul').show();
                       $.each(data.products, function(k, v) {
                           $('.basket-items ul').append('<li>'+v.name+', ' + v.nmb + ' шт. ' + 'по ' + v.price_per_item + ' РУБ' +
                             '<a class="delete-item" href=""data-product_id="'+v.id+'">X</a>'+
                              '</li>');
 
-
-
                       });
+
 
 
                   }
@@ -69,6 +69,7 @@ $(document).ready(function(){
 
     function showingBasket(){
         $('.basket-items').removeClass('hidden');
+
 
     }
 
@@ -118,10 +119,7 @@ $(document).ready(function(){
          calculatingBasketAmount();
      });
 
-     $( ".basketbutton" ).show(function() {
-  
 
-});
 
 
 
