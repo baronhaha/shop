@@ -74,18 +74,21 @@
                           {% endfor %}
 
                          </div>
-                   </ul>
-                 </div>
 
-                <div class="basketbutton">
-                    {% if products_total_nmb %}
+                       <div class="basketbutton">
+                         {% if products_total_nmb > 0 %}
                            <button type="submit" class="btn btn success btn-buy" onclick="location.href='/checkout/'"><span>Оформление</span></button>
                              {% else %}
 
 
                          {% endif %}
 
-                </div>
+                       </div>
+                   </ul>
+
+                 </div>
+
+
 
             </div>
         </li>
