@@ -5,7 +5,7 @@
 
 html, body{
     height: 100%;
-    max-height: 100%;
+
     font-family: 'Roboto', sans-serif;
     background: url('../img/fon.jpg') no-repeat center fixed #B9A6E0;
     background-position: top;
