@@ -23,9 +23,13 @@
         {{ product_image.product.price }} RUB
     </div>
     <div class="add-to-card-btn">
+        <input type="button" value="+" onClick="change('number2',0,10, 1);"/>
+        <input id="number2" type="text" value="1"/>
+        <input type="button" value="-" onClick="change('number2',0,10,-1);"/>
         <button class="btn btn-primary">
             Добавить в корзину
         </button>
     </div>
+
  </div>
 </div>

@@ -178,6 +178,10 @@ html, body{
   transition: 0.5s;
 }
 
+#number2 {
+width:30px;
+}
+
 .btn-buy:hover span {
   padding-right: 15px;
 }
@@ -261,7 +265,7 @@ html, body{
   right: 0;
   bottom: 0;
   left: 0;
-  perspective: 2222px;
+  perspective: 1111px;
   transform-style: preserve-3d;
 }
 

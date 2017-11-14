@@ -53,7 +53,7 @@ $(document).ready(function(){
     form.on('submit', function(e){
         e.preventDefault();
         console.log('123');
-        var nmb = $('#number').val();
+        var nmb = $('#number2').val();
         console.log(nmb);
         var submit_btn = $('#submit_btn');
         var product_id =  submit_btn.data("product_id");
@@ -61,6 +61,13 @@ $(document).ready(function(){
         var price = submit_btn.data("price");
         console.log(product_id );
         console.log(name);
+        function change(objName, min, max, step) {
+        var obj = document.getElementById(objName);
+        var tmp = +obj.value + step;
+        if (tmp<min) tmp=min;
+        if (tmp>max) tmp=max;
+        obj.value = tmp;
+          }
 
 
         basketUpdating(product_id, nmb, is_delete=false)
@@ -122,7 +129,12 @@ $(document).ready(function(){
 
 
 
-
-
-
 });
+
+function change(objName, min, max, step) {
+    var obj = document.getElementById(objName);
+    var tmp = +obj.value + step;
+    if (tmp<min) tmp=min;
+    if (tmp>max) tmp=max;
+    obj.value = tmp;
+}
