@@ -3,10 +3,14 @@
 <body>
 
 <!-- Custom styles -->
-    <link rel="stylesheet" type="text/css" href="{% static "static_dev/css/navbar.css" %}">
+
+
+<link rel="stylesheet" type="text/css" href="{% static "static_dev/css/navbar.css" %}">
+
+
+
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
 
 
 
@@ -32,18 +36,7 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="/">Главная</a></li>
         <li><a href="#">Связь</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Статьи <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
+
       </ul>
 
       <ul class="nav navbar-nav navbar-centre">
@@ -56,9 +49,9 @@
                        (0)
                    {% endif %}
                </span> </a>
-                 <div class="basket-items hidden">
+                 <div class="basket-items">
                    <ul class="">
-                     <div class="uh1">
+                         <div class="uh1">
 
                           {% for product_in_basket in products_in_basket %}
                           <li>
@@ -69,8 +62,7 @@
                           {% endfor %}
 
                          </div>
-
-                       <div class="basketbutton">
+                   <div class="basket-button">
                          {% if products_total_nmb > 0 %}
                            <button type="submit" class="btn btn success btn-buy" onclick="location.href='/checkout/'"><span>Оформление</span></button>
                              {% else %}
@@ -79,16 +71,22 @@
                          {% endif %}
 
                        </div>
+
+
+
                    </ul>
 
-                 </div>
 
 
 
             </div>
+
         </li>
+
       </ul>
+
     </div><!-- /.navbar-collapse -->
+
   </div><!-- /.container-fluid -->
 </nav>
 
