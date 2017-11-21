@@ -1,4 +1,4 @@
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = ['*']
 
 DATABASES = {
@@ -6,7 +6,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'db1',
         'USER': 'gold',
-        'PASSWORD': 'qopgoldqop',
+        'PASSWORD': 'qop000qop',
         'HOST': 'localhost',
         'PORT': '',
     }
