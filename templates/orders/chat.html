@@ -1,22 +1,21 @@
 {% load static %}
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>chat</title>
-</head>
-<body>
-<a>
-    xchat
+<html>
+  <head>
+    <script src="{% static 'static_dev/js/webrtc.js' %}"></script>
+      <script src="{% static 'static_dev/js/server.js' %}"></script>
+    <title>Chat</title>
+  </head>
 
-</a>
-
-<video autoplay></video>
-
-
-
-<script src="{% static 'static_dev/js/chat.js' %}"></script>
-
-</body>
+  <body>
+    <video id="remoteVideo" autoplay></video>
+    <video id="localVideo" autoplay muted></video>
+    <input id="videoCallButton" type="button" disabled value="Video Call"/>
+    <input id="endCallButton" type="button" disabled value="End Call"/>
+    <script type="text/javascript">
+      window.addEventListener("load", pageReady);
+    </script>
+  </body>
 </html>
+
