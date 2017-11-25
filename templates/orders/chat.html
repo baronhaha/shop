@@ -1,20 +1,17 @@
 {% load static %}
 
-
 <html>
   <head>
     <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
       <script src="{% static 'static_dev/js/test.js' %}"></script>
-
       <link rel="stylesheet" type="text/css" href="{% static "/static_dev/css/test.css" %}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body onload="showMyFace()">
-    <video class="video" id="yourVideo" autoplay muted></video>
-    <video class="video" id="friendsVideo" autoplay></video>
+    <video id="yourVideo" autoplay muted></video>
+    <video id="friendsVideo" autoplay></video>
     <br />
-    <button onclick="showFriendsFace()" type="button" class="btn btn-primary btn-lg button"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Call</button>
+    <button onclick="showFriendsFace()" type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Call</button>
   </body>
 </html>
-
 

@@ -1,3 +1,4 @@
+//Create an account on Firebase, and use the credentials they give you in place of the following
 var config = {
     apiKey: "AIzaSyAziN4u3ubcg7QQrhvrz7aksVdaC6MQF_0",
     authDomain: "videochat-9297f.firebaseapp.com",
@@ -13,7 +14,8 @@ var database = firebase.database().ref();
 var yourVideo = document.getElementById("yourVideo");
 var friendsVideo = document.getElementById("friendsVideo");
 var yourId = Math.floor(Math.random()*1000000000);
-var servers = {'iceServers': [{'urls': 'stun:stun.services.mozilla.com'}, {'urls': 'stun:stun.l.google.com:19302'}, {'urls': 'turn:numb.viagenie.ca','credential': 'websitebeaver','username': 'goldteamus@mail.ru'}]};
+//Create an account on Viagenie (http://numb.viagenie.ca/), and replace {'urls': 'turn:numb.viagenie.ca','credential': 'websitebeaver','username': 'websitebeaver@email.com'} with the information from your account
+var servers = {'iceServers': [{'urls': 'stun:stun.services.mozilla.com'}, {'urls': 'stun:stun.l.google.com:19302'}, {'urls': 'turn:numb.viagenie.ca','credential': 'goldteam','username': 'goldteamus@mail.ru'}]};
 var pc = new RTCPeerConnection(servers);
 pc.onicecandidate = (event => event.candidate?sendMessage(yourId, JSON.stringify({'ice': event.candidate})):console.log("Sent All Ice") );
 pc.onaddstream = (event => friendsVideo.srcObject = event.stream);
@@ -44,7 +46,10 @@ database.on('child_added', readMessage);
 function showMyFace() {
   navigator.mediaDevices.getUserMedia({audio:true, video:true})
     .then(stream => yourVideo.srcObject = stream)
-    .then(stream => pc.addStream(stream));
+    .then(stream => pc.addStream(stream))
+    .catch(function(err) {
+        console.log(err);
+    });
 }
 
 function showFriendsFace() {
