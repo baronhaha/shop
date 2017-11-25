@@ -1,23 +1,20 @@
 {% load static %}
 
-<!DOCTYPE html>
+
 <html>
   <head>
-    <script src="{% static 'static_dev/js/webrtc.js' %}"></script>
-      <script src="{% static 'static_dev/js/server.js' %}"></script>
-       <script src="{% static 'static_dev/js/chat.js' %}"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+      <script src="{% static 'static_dev/js/test.js' %}"></script>
 
-    <title>Chat</title>
+      <link rel="stylesheet" type="text/css" href="{% static "/static_dev/css/test.css" %}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   </head>
-
-  <body>
-    <video id="remoteVideo" autoplay></video>
-    <video id="localVideo" autoplay muted></video>
-    <input id="videoCallButton" type="button" disabled value="Video Call"/>
-    <input id="endCallButton" type="button" disabled value="End Call"/>
-    <script type="text/javascript">
-      window.addEventListener("load", pageReady);
-    </script>
+  <body onload="showMyFace()">
+    <video class="video" id="yourVideo" autoplay muted></video>
+    <video class="video" id="friendsVideo" autoplay></video>
+    <br />
+    <button onclick="showFriendsFace()" type="button" class="btn btn-primary btn-lg button"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Call</button>
   </body>
 </html>
+
 
