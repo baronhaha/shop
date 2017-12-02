@@ -79,6 +79,25 @@ $(document).ready(function(){
 
     });
 
+    form.on('submit', function(e){
+        e.preventDefault();
+        console.log('123');
+        var nmb = $(1).val();
+        console.log(nmb);
+        var submit_btn2 = $('#submit_btn2');
+        var product_id =  submit_btn2.data("product_id");
+        var name = submit_btn2.data("name");
+        var price = submit_btn2.data("price");
+        console.log(product_id );
+        console.log(name);
+
+
+
+        basketUpdating(product_id, nmb, is_delete=false)
+
+
+    });
+
    /* function showingButton(nmb){
         var data = {};
         data.nmb = nmb;
