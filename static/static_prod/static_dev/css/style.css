@@ -84,6 +84,7 @@ transform: rotate(-10deg);}
 .product-item{
     overflow: hidden;
     height: 350px;
+
     background-color: #F9F5FF;
     border: 1px solid lightgrey;
     position: relative;
