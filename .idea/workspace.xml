@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68a09b6d-72ed-4338-9ba9-f72f910a6b2f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/blu6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/content.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/gal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/google.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/images.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/images_ZiIAprG.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/index.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/index.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/index3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/int.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/kodgoldteam.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/obvodka-300x206.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/social.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/landing.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/test.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/img/bg_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/img/fon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/img/image2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/jquery-2.2.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/jquery.bootstrap-autohidingnavbar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/jquery.mycart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/scripts.js" afterPath="" />
-    </list>
+    <list default="true" id="68a09b6d-72ed-4338-9ba9-f72f910a6b2f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
