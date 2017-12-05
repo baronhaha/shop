@@ -23,7 +23,7 @@ html, body{
 transition: all 0.5s ease;
 }
 .morph:hover {
-border: 10px solid #333;
+border: 8px solid #56416e;
 border-radius: 50%;
 -webkit-transform: rotate(360deg);
 -moz-transform: rotate(360deg);
