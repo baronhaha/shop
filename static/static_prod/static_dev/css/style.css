@@ -81,6 +81,12 @@ transform: rotate(-10deg);}
     background-color: #B9A6E0;
 }
 
+.radio{
+    position: absolute;
+    margin-top: 10%;
+
+}
+
 .product-item{
     overflow: hidden;
     height: 350px;
