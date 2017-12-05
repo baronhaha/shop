@@ -5,7 +5,7 @@
 <head>
     <meta name="google-site-verification" content="siIItZHvbccBWNeeML2Ytdc_ah9vrN6j_Tc5c_L6AOU" />
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width; initial-scale=1">
+
     <title>GoldTeam.us - Web Development,SMM,Content,AdWords,Promotion</title>
 
     <!-- Bootstrap -->
@@ -16,21 +16,30 @@
 
     <!-- Custom styles -->
     <link rel="stylesheet" type="text/css" href="{% static "/static_dev/css/style.css" %}">
-
+   <meta name="viewport" content="width=device-width; initial-scale=1">
 
 
 
 </head>
 <body>
+<div class="radio">
+           {% include 'radio.html' %}
+                </div>
 
 
    <div class="wrapper">
+
       <div class="wrapper-content">
          {% include 'navbar.html' %}
 
+
           {% block content %}
+
           {% endblock content %}
+
       </div>
+
+
 
 
 
