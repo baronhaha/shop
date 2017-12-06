@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:700&text=css");
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script&text=!");
 
-
 html, body{
     height: 100%;
 
@@ -12,17 +11,9 @@ html, body{
     background-position: top;
 
 }
-
-
 .delete-item{
     color: #761c19;
 }
-
-.vkbottom{
-    margin-top: 3%;
-}
-
-
 
 .morph {
 -webkit-transition: all 0.5s ease;
@@ -93,6 +84,7 @@ transform: rotate(-10deg);}
 .radio{
     position: absolute;
     margin-top: 10%;
+    padding: 10px 10px 10px 10px;
 
 }
 
