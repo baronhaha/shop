@@ -84,6 +84,7 @@ transform: rotate(-10deg);}
 .radio{
     position: absolute;
     margin-top: 10%;
+    padding: 10px 10px 10px 10px;
 
 }
 
