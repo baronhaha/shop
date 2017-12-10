@@ -164,23 +164,26 @@ transform: rotate(-10deg);}
 .bplus{
     background-color: #B9A6E1;
     border-radius: 20%;
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
 }
 
 .bminus{
     background-color: #B1A7D3;
     border-radius: 20%;
-    height: 30px;
-    width: 30px;
-}
+    height: 35px;
+    width: 35px;
 
 .inputcss{
     border-radius: 15%;
     background-color: lavender;
     text-align: center;
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
+}
+
+.vkbottom{
+    margin-top: 5%;
 }
 
 .discount-container{

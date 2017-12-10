@@ -31,10 +31,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/jquery.bootstrap-autohidingnavbar.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/jquery.mycart.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/scripts.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static_dev/css/style.css" afterPath="$PROJECT_DIR$/static/static_dev/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/landing/home.html" afterPath="$PROJECT_DIR$/templates/landing/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/products/product.html" afterPath="$PROJECT_DIR$/templates/products/product.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,7 +51,7 @@
       <file leaf-file-name="product_item.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/landing/product_item.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="478">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
@@ -64,7 +61,7 @@
       <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/products/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="153">
               <caret line="60" column="89" lean-forward="false" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
               <folding />
             </state>
@@ -84,8 +81,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/static_dev/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="180" column="22" lean-forward="false" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
+            <state relative-caret-position="614">
+              <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/static_dev/css/landing.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -138,16 +145,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="container.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/landing/container.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -274,6 +271,23 @@
               <item name="proba" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="proba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proba" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proba" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proba" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -287,7 +301,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/landing" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="SearchEverywhereHistoryKey" value="badge-n&#9;null&#9;null&#10;badge&#9;null&#9;null&#10;uh1&#9;null&#9;null&#10;SESSION_COOKIE&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="vkbottom&#9;null&#9;null&#10;badge-n&#9;null&#9;null&#10;badge&#9;null&#9;null&#10;uh1&#9;null&#9;null&#10;SESSION_COOKIE&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -566,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/static_dev/css/landing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/static_dev/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -797,14 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/landing/product_item.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/static_dev/css/navbar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="618">
@@ -813,18 +812,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/landing/product_item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/products/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="153">
           <caret line="60" column="89" lean-forward="false" selection-start-line="60" selection-start-column="89" selection-end-line="60" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/static_dev/css/landing.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/static_dev/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="180" column="22" lean-forward="false" selection-start-line="180" selection-start-column="22" selection-end-line="180" selection-end-column="22" />
+        <state relative-caret-position="614">
+          <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
           <folding />
         </state>
       </provider>
