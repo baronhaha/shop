@@ -164,26 +164,27 @@ transform: rotate(-10deg);}
 .bplus{
     background-color: #B9A6E1;
     border-radius: 20%;
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
 }
 
 .bminus{
     background-color: #B1A7D3;
     border-radius: 20%;
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
+}
 
 .inputcss{
     border-radius: 15%;
     background-color: lavender;
     text-align: center;
-    height: 30px;
-    width: 30px;
+    height: 36px;
+    width: 45px;
 }
 
 .vkbottom{
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .discount-container{
@@ -221,7 +222,7 @@ transform: rotate(-10deg);}
 
 .btn-buy {
   border-radius: 4px;
-  background-color: cornflowerblue;
+  background-color: #C44747;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -249,9 +250,7 @@ transform: rotate(-10deg);}
   transition: 0.5s;
 }
 
-#number2 {
-width:30px;
-}
+
 
 .btn-buy:hover span {
   padding-right: 15px;
