@@ -181,10 +181,11 @@ transform: rotate(-10deg);}
     text-align: center;
     height: 36px;
     width: 45px;
+    color: #66512c;
 }
 
 .vkbottom{
-    margin-top: 10%;
+    margin-top: 6%;
 }
 
 .discount-container{
@@ -228,40 +229,13 @@ transform: rotate(-10deg);}
   text-align: center;
   font-size: 16px;
   padding: 5px;
-
-  transition: all 0.5s;
   cursor: pointer;
 
 }
 
-.btn-buy span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
 
-.btn-buy span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -11px;
-  transition: 0.5s;
-}
-
-
-
-.btn-buy:hover span {
-  padding-right: 15px;
-}
-
-.btn-buy:hover span:after {
-  opacity: 1;
-  right: 0;
-}
 .form-group{
-    color: #66512c;
+    color:;
 }
 
 .form-error{
