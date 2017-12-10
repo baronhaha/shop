@@ -57,9 +57,9 @@
                         <form id="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}
                             <div class="form-group">
 
-                                <input type="button" value="+" onClick="change('number2',0,10, 1);"/>
-                                <input id="number2" type="text" value="1"/>
-                                <input type="button" value="-" onClick="change('number2',0,10,-1);"/>
+                                <input type="button" value="+" class="bplus" onClick="change('number2',0,10, 1);"/>
+                                <input id="number2" type="text" value="1" class="inputcss"/>
+                                <input type="button" value="-" class="bminus" onClick="change('number2',0,10,-1);"/>
                             </div>
 
                             <div class="form-group">
