@@ -18,12 +18,14 @@
 
     <!-- Custom styles -->
     <link rel="stylesheet" type="text/css" href="{% static "/static_dev/css/style.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "/static_dev/css/canvas.css" %}">
     <meta name="viewport" content="width=device-width; initial-scale=1">
 
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
+
 <div class="radio">
            {% include 'radio.html' %}
                 </div>
@@ -36,6 +38,8 @@
 
 
           {% block content %}
+
+
 
           {% endblock content %}
 

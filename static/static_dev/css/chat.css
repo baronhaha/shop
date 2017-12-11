@@ -2,8 +2,8 @@
 
 /*Center the weird text*/
 #weirdtext{
-    font-size: 30px;
-    font-family: sans-serif;
+    font-size: 32px;
+    font-family: "Lucida Blackletter", eufm10, blackletter;
     color: antiquewhite;
     max-width: 800px;
     display: block;
@@ -22,12 +22,14 @@ author{
 /*all spans have to be block or inline block to transform*/
 #weirdtext span{
     display: inline-block;
+    color: #b9a78a;
+
 }
 
 /*When JS finds a space, it replaces it with a span with .space class*/
 /*I did this so you can do stuff with the spaces if you want.*/
 .space{
-    width: 15px;
+    width: 20px;
 }
 
 
@@ -106,27 +108,37 @@ author{
     0%{
         transform: scale(.8);
         opacity: .7;
+        color: #1EFFFF;
     }
     50%{
         transform: scale(1);
         opacity: 1;
+
     }
     100%{
         transform: scale(.8);
         opacity: .7;
+        color: #27C142;
     }
 }
 @-webkit-keyframes fade2{
     0%{
         -webkit-transform: scale(.8);
         opacity: .7;
+        color: #918AD9;
     }
     50%{
         -webkit-transform: scale(1);
         opacity: 1;
+        color: #f0ad4e;
     }
     100%{
         -webkit-transform: scale(.8);
         opacity: .7;
     }
+}
+.btn-lg{
+    color: #f0ad4e;
+    background-color: #56416e;
+    border-color: #9362A3;
 }

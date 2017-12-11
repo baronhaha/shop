@@ -17,6 +17,18 @@
                     {% include 'landing/container.html' %}
                </div>
 
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-12">
+                     <canvas id="myCanvas"></canvas>
+                   </div>
+               </div>
+
+           </div>
+
+
+
+
 
            <div class="row">
                <div class="col-lg-12">
@@ -55,11 +67,12 @@
        </div>
      </div>
 
+<script src="{% static 'static_dev/js/mycanvas.js' %}"></script>
 
 <!-- VK Widget -->
 <div id="vk_community_messages"></div>
 <script type="text/javascript">
-VK.Widgets.CommunityMessages("vk_community_messages", 132606507, {expandTimeout: "5000",tooltipButtonText: "Есть вопросы? Напишите нам и в ближайшее время мы Вам ответим!"});
+VK.Widgets.CommunityMessages("vk_community_messages", 132606507, {expandTimeout: "30000",tooltipButtonText: "Есть вопросы?"});
 </script>
 
 

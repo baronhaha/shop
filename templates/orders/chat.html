@@ -15,13 +15,13 @@
     <video id="yourVideo" autoplay muted></video>
     <video id="friendsVideo" autoplay></video>
     <br />
-    <button onclick="showFriendsFace()" type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Call</button>
+    <button onclick="showFriendsFace()" type="button" class="btn btn-lg"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Call</button>
     <script src="{% static 'static_dev/js/chat.js' %}"></script>
     <link rel="stylesheet" type="text/css" href="{% static "/static_dev/css/chat.css" %}">
     <div>
 
 
-    <p id="weirdtext">Раздел находится в разработке... Если ты хочешь инвестировать в проект, свяжись с нами!!!</p>
+    <p id="weirdtext">Раздел находится в разработке... Если ты хочешь инвестировать в проект, свяжись с нами!</p>
 
 
     </div>
@@ -86,15 +86,18 @@ function showFriendsFace() {
     <style>
         video{
   background-color: #B1A7D3;
-  border-radius: 7px;
+  border-radius: 5px;
+  border-color: #1A01CC;
   margin: 10px 0px 0px 10px;
   width: 320px;
   height: 240px;
 }
-button{
+     button{
   margin: 5px 0px 0px 10px !important;
   width: 654px;
+
 }
+
     </style>
   </body>
           </div>

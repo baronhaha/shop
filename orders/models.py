@@ -3,6 +3,8 @@ from products.models import Product
 from django.db.models.signals import post_save
 from django.contrib.auth.models import User
 from utils.main import disable_for_loaddata
+from django.contrib.auth.models import User, Group, Permission
+from rest_framework import serializers
 
 class Status(models.Model):
     name = models.CharField(max_length=24, blank=True, null=True, default=None)
