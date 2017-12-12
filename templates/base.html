@@ -26,6 +26,7 @@
 </head>
 <body>
 
+
 <div class="radio">
            {% include 'radio.html' %}
                 </div>
@@ -44,6 +45,9 @@
           {% endblock content %}
 
       </div>
+       <div class="firefly">
+
+       </div>
 
 
 
@@ -55,6 +59,20 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jquery.firefly.js"></script>
+<script>
+    $(document).ready(function(){
+
+	$.firefly({
+		images :['/static_dev/img/image2.jpg', 'images/spark2.png'],
+		total : 7
+
+	});
+
+
+});
+</script>
+
 
      <!-- JavaScript -->
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
