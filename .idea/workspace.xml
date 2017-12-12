@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68a09b6d-72ed-4338-9ba9-f72f910a6b2f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proba/run.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_dev/img/para.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/blu6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/content.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/gal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/google.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/images.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/images_ZiIAprG.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/index.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/index.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/index3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/int.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/kodgoldteam.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/obvodka-300x206.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/social.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/canvas.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/chat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/landing.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/test.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/webcam.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/img/bg_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/img/fon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/img/image2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/img/para.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/chat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/jquery-2.2.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/jquery.bootstrap-autohidingnavbar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/jquery.mycart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/mycanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/scripts.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/orders/urls.py" afterPath="$PROJECT_DIR$/orders/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/orders/views.py" afterPath="$PROJECT_DIR$/orders/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proba/settings.py" afterPath="$PROJECT_DIR$/proba/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proba/urls.py" afterPath="$PROJECT_DIR$/proba/urls.py" />
-    </list>
+    <list default="true" id="68a09b6d-72ed-4338-9ba9-f72f910a6b2f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/products/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -114,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/orders/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
+            <state relative-caret-position="523">
               <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
@@ -137,7 +97,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orders/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1342">
+            <state relative-caret-position="-1245">
               <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
               <folding />
             </state>
@@ -859,30 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orders/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orders/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orders/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1342">
-          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orders/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -913,6 +849,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1245">
+          <caret line="5" column="62" lean-forward="false" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
           <folding />
         </state>
       </provider>
