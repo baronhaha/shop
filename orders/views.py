@@ -1,22 +1,14 @@
-from django.shortcuts import render
-#from .forms import SubscriberForm
 from django.http import JsonResponse, HttpResponse, HttpResponseRedirect
 from .models import *
+from django.shortcuts import render
 from .forms import CheckoutContactForm
 from django.contrib.auth.models import User
 
-def landing(request):
-    form = SubscriberForm(request.POST or None)
-    if request.method == "POST" and form.is_valid():
-        print (request.POST)
-        print (form.cleaned_data)
-        data = form.cleaned_data
-        print(data["name"])
 
-        new_form = form.save()
-    return render(request, 'landing\landing.html', locals())
+
 
 def basket_adding(request):
+    print('ОК')
     return_dict = dict()
     session_key = request.session.session_key
     print(request.POST)
@@ -31,11 +23,11 @@ def basket_adding(request):
         new_product, created = ProductInBasket.objects.get_or_create(session_key=session_key, product_id=product_id,
                                                                      is_active=True, defaults={"nmb": nmb})
         if not created:
-          print("not created")
-          new_product.nmb += int(nmb)
-          new_product.save(force_update=True)
+            print("not created")
+            new_product.nmb += int(nmb)
+            new_product.save(force_update=True)
 
-    #common code for 2 cases
+    # common code for 2 cases
     products_in_basket = ProductInBasket.objects.filter(session_key=session_key, is_active=True, order__isnull=True)
     products_total_nmb = products_in_basket.count()
     return_dict["products_total_nmb"] = products_total_nmb
@@ -59,7 +51,6 @@ def checkout(request):
     print(products_in_basket)
     for item in products_in_basket:
         print(item.order)
-
 
     form = CheckoutContactForm(request.POST or None)
     if request.POST:
@@ -97,16 +88,11 @@ def checkout(request):
 
 
 def chat(request):
-
     if request.method == "POST" and form.is_valid():
-        print (request.POST)
-        print (form.cleaned_data)
+        print(request.POST)
+        print(form.cleaned_data)
         data = form.cleaned_data
         print(data["name"])
 
         new_form = form.save()
     return render(request, 'orders/chat.html', locals())
-
-
-
-

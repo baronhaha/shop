@@ -3,7 +3,7 @@ from products.models import Product
 from django.db.models.signals import post_save
 from django.contrib.auth.models import User
 from utils.main import disable_for_loaddata
-from django.contrib.auth.models import User, Group, Permission
+
 
 class Status(models.Model):
     name = models.CharField(max_length=24, blank=True, null=True, default=None)
@@ -66,6 +66,8 @@ class ProductInOrder(models.Model):
     def save(self, *args, **kwargs):
         price_per_item = self.product.price
         self.price_per_item = price_per_item
+        print(self.nmb)
+
         self.total_price = int(self.nmb) * self.price_per_item
         
         super(ProductInOrder, self).save(*args, **kwargs)

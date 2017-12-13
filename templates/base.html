@@ -18,7 +18,7 @@
 
     <!-- Custom styles -->
     <link rel="stylesheet" type="text/css" href="{% static "/static_dev/css/style.css" %}">
-    <link rel="stylesheet" type="text/css" href="{% static "/static_dev/css/canvas.css" %}">
+
     <meta name="viewport" content="width=device-width; initial-scale=1">
 
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
@@ -26,13 +26,7 @@
 </head>
 <body>
 
-
-<div class="radio">
-           {% include 'radio.html' %}
-                </div>
-
-
-   <div class="wrapper">
+    <div class="wrapper">
 
       <div class="wrapper-content">
          {% include 'navbar.html' %}
@@ -42,36 +36,19 @@
 
 
 
+
           {% endblock content %}
 
       </div>
-       <div class="firefly">
-
-       </div>
-
-
-
-
 
    </div>
 
-    {% include 'footer.html' %}
+{% include 'footer.html' %}
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="jquery.firefly.js"></script>
-<script>
-    $(document).ready(function(){
-
-	$.firefly({
-		images :['/static_dev/img/image2.jpg', 'images/spark2.png'],
-		total : 7
-
-	});
 
 
-});
-</script>
+
 
 
      <!-- JavaScript -->
@@ -82,19 +59,14 @@
    <!-- Custom styles -->
 <script src="{% static 'static_dev/js/jquery.bootstrap-autohidingnavbar.min.js' %}"></script>
 
-   <script src="{% static 'static_dev/js/scripts.js' %}"></script>
-
-<script>
-    $(".navbar-fixed-top").autoHidingNavbar({
-    });
-</script>
-
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?150"></script>
 
 <!-- VK Widget -->
 <div id="vk_community_messages"></div>
 <script type="text/javascript">
-VK.Widgets.CommunityMessages("vk_community_messages", 132606507, {expandTimeout: "30000",tooltipButtonText: "Есть вопросы?"});
+VK.Widgets.CommunityMessages("vk_community_messages", 132606507, {widgetPosition: "left",disableExpandChatSound: "1",disableNewMessagesSound: "1",tooltipButtonText: "Мы в ВК"});
 </script>
+
+
 </body>
 </html>

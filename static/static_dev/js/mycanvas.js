@@ -2,7 +2,7 @@ var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 var mask;
 
-var pointCount = 800;
+var pointCount = 700;
 var str = "GoldTeam Studio";
 var fontStr = "bold 100pt Helvetica Neue, Helvetica, Arial, sans-serif";
 
@@ -21,8 +21,8 @@ var point = function(x,y,vx,vy){
 }
 point.prototype.update = function() {
   ctx.beginPath();
-  ctx.fillStyle = "#fff";
-  ctx.arc(this.x,this.y,0.6,0,2.2*Math.PI);
+  ctx.fillStyle = "#F9D224";
+  ctx.arc(this.x,this.y,1,0,2*Math.PI);
   ctx.fill();
   ctx.closePath();
 
@@ -70,7 +70,7 @@ function loop() {
 function init() {
   // Draw text
   ctx.beginPath();
-  ctx.fillStyle = '#001';
+  ctx.fillStyle = '#095';
   ctx.rect(0,0,c.width,c.height);
   ctx.fill();
   ctx.font = fontStr;

@@ -3,14 +3,18 @@
 {% block content %}
 <html>
   <head>
+      <!-- Custom styles -->
+<script src="{% static 'static_dev/js/jquery.bootstrap-autohidingnavbar.min.js' %}"></script>
     <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
 
 
 
   </head>
+
+
   <div class="container">
       <div class="row">
-          <div class="col-lg-8 col-lg-offset-2" style="margin-top: 5%";>
+          <div class="col-lg-8 col-lg-offset-2" style="margin-top: 10%">
   <body onload="showMyFace()">
     <video id="yourVideo" autoplay muted></video>
     <video id="friendsVideo" autoplay></video>
@@ -18,12 +22,9 @@
     <button onclick="showFriendsFace()" type="button" class="btn btn-lg"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Call</button>
     <script src="{% static 'static_dev/js/chat.js' %}"></script>
     <link rel="stylesheet" type="text/css" href="{% static "/static_dev/css/chat.css" %}">
+
     <div>
-
-
-    <p id="weirdtext">Раздел находится в разработке... Если ты хочешь инвестировать в проект, свяжись с нами!</p>
-
-
+        <p id="weirdtext">Раздел находится в разработке... Если ты хочешь ускорить процесс, инвестировав в проект, свяжись с нами!</p>
     </div>
 
 
@@ -45,7 +46,7 @@ var friendsVideo = document.getElementById("friendsVideo");
 var yourId = Math.floor(Math.random()*1000000000);
 var servers = {'iceServers': [{'urls': 'stun:stun.services.mozilla.com'}, {'urls': 'stun:stun.l.google.com:19302'}, {'urls': 'turn:numb.viagenie.ca','credential': 'goldteam','username': 'goldteamus@mail.ru'}]};
 var pc = new RTCPeerConnection(servers);
-pc.onicecandidate = (event => event.candidate?sendMessage(yourId, JSON.stringify({'ice': event.candidate})):console.log("Sent All Ice") );
+pc.onicecandidate = (event => event.candidate?sendMessage(yourId, JSON.stringify({'ice': event.candidate})):console.log("Sent All Ice"));
 pc.onaddstream = (event => friendsVideo.srcObject = event.stream);
 
 function sendMessage(senderId, data) {
@@ -83,22 +84,7 @@ function showFriendsFace() {
     .then(() => sendMessage(yourId, JSON.stringify({'sdp': pc.localDescription})) );
 }
     </script>
-    <style>
-        video{
-  background-color: #B1A7D3;
-  border-radius: 5px;
-  border-color: #1A01CC;
-  margin: 10px 0px 0px 10px;
-  width: 320px;
-  height: 240px;
-}
-     button{
-  margin: 5px 0px 0px 10px !important;
-  width: 654px;
 
-}
-
-    </style>
   </body>
           </div>
       </div>
