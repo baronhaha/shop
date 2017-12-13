@@ -2,27 +2,21 @@
 
 /*Center the weird text*/
 #weirdtext{
-    font-size: 32px;
+    font-size: 35px;
     font-family: "Lucida Blackletter", eufm10, blackletter;
     color: antiquewhite;
     max-width: 800px;
-    display: block;
+
     margin: 60px auto 5px auto;
 }
 
 /*Just the CSS for the quote citation*/
-author{
-    max-width: 500px;
-    display: block;
-    margin: 0 auto;
-    text-align: right;
-    opacity: .4;
-}
+
 
 /*all spans have to be block or inline block to transform*/
 #weirdtext span{
     display: inline-block;
-    color: #b9a78a;
+    color: #66512c;
 
 }
 
@@ -142,3 +136,17 @@ author{
     background-color: #56416e;
     border-color: #9362A3;
 }
+
+video{
+  background-color: #B1A7D3;
+  border-radius: 5px;
+  border-color: #1A01CC;
+  margin: 10px 0px 0px 10px;
+  width: 320px;
+  height: 240px;
+
+}
+button{
+    margin: 5px 0px 0px 10px !important;
+    width: 654px;}
+
