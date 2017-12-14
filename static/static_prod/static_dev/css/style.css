@@ -48,6 +48,11 @@ transform: rotate(1deg);}
     background-color: #B9A6E0;
 }
 
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 
 .product-item{
