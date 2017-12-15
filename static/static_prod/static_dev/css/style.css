@@ -35,10 +35,7 @@ transform: rotate(1deg);}
     margin-bottom: 0;
 }
 
-.row{
-    margin-bottom: 10px;
 
-}
 
 .footer{
     position: static;
@@ -58,6 +55,7 @@ transform: rotate(1deg);}
 .product-item{
     overflow: hidden;
     height: 300px;
+
 
     background-color: #F9F5FF;
     border: 1px solid lightgrey;

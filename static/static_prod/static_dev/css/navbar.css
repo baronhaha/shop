@@ -1,6 +1,6 @@
  /* цвет фона и рамки навигационного меню */
 .navbar-default {
-    background: rgba(81, 76, 116, 0.9);
+    background: rgba(81, 76, 116, 0.7);
     border: none;
     border-radius: 0px;
 }
@@ -18,19 +18,19 @@
     }
     /* Цвет пунктов навигационного меню */
     .navbar-default .navbar-nav > li > a {
-        color: #6EBCC1;
+        color: #f0ad4e;
     }
     /* Цвет пункта меню, при поднесении к нему курсора мышки или при его нахождении в фокусе */
     .navbar-default .navbar-nav > li > a:hover,
     .navbar-default .navbar-nav > li > a:focus {
-        color: #d1ffed;
+        color: #56416e;
     }
     /* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
     .navbar-default .navbar-nav > .active > a,
     .navbar-default .navbar-nav > .active > a:hover,
     .navbar-default .navbar-nav > .active > a:focus {
-        color: #6EBCC1;
-        background-color: #514C74;
+        color: #f0ad4e;
+        background-color: inherit;
     }
     /* Цвет и фон открытого пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
     .navbar-default .navbar-nav > .open > a,
