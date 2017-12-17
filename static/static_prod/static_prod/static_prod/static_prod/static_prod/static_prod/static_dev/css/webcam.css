@@ -1,0 +1,69 @@
+html, body {
+  margin: 0;
+  width: 100%
+}
+
+main {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #27C142 linear-gradient(45deg, #49CB60 25%, transparent 25%, transparent 50%, #49CB60 50%, #49CB60 75%, transparent 75%) repeat scroll 0% 0% / 30px 30px;
+}
+
+video {
+  position: absolute
+}
+
+#local {
+  z-index: 1;
+  right: 0;
+  top: 75%;
+  width: 25%;
+  height: 25%
+}
+
+#remote {
+  width: 100%;
+  height: 100%
+}
+
+:-webkit-full-screen { width: 100%; height: 100% }
+:-moz-full-screen { width: 100%; height: 100% }
+:-webkit-full-screen > #remote { background: #000 }
+:-moz-full-screen > #remote { background: #000 }
+:-webkit-full-screen > #local { background: inherit }
+:-moz-full-screen > #local { background: inherit }
+
+#chat {
+  position: absolute;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.2) none repeat scroll 0% 0%;
+  width: 75%;
+  bottom: 0;
+  height: 25%;
+}
+
+#display {
+  height: calc(100% - 1.8em);
+  overflow: auto;
+  word-wrap: break-word
+}
+
+#input {
+  border: 0;
+  outline: 0;
+  padding: .3em .5em;
+  font-family: serif;
+  font-size: 12pt;
+  width: calc(100% - 1em)
+}
+
+p {
+  margin: .5em .8em;
+  font-weight: bold
+}
+
+.remotemsg {
+  color: #020
+}
