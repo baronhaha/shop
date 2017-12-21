@@ -61,11 +61,14 @@
     /* Цвет рамки у кнопки, которая открывает меню */
     .navbar-default .navbar-toggle {
         border-color: #B9A5E0;
+        max-width: 44px;
+
     }
     /* Цвет фона кнопки (которая открывает меню) при поднесении к ней курсора мышки или при нахождении её в фокусе */
     .navbar-default .navbar-toggle:hover,
     .navbar-default .navbar-toggle:focus {
         background-color: #B1A7D3;
+        max-width: 44px;
     }
     /* Цвет полосочек в кнопочке, которая открывает меню */
     .navbar-default .navbar-toggle .icon-bar {

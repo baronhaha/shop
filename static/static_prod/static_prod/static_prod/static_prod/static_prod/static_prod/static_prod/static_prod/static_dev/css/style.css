@@ -17,6 +17,9 @@ html, body{
 .brief{
     color: #440D59;
 }
+.paddingbrief{
+    padding: 10px;
+}
 
 .bw:hover {
     border: 5px dotted #E5D2E5;
