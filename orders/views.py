@@ -96,3 +96,14 @@ def chat(request):
 
         new_form = form.save()
     return render(request, 'orders/chat.html', locals())
+
+def order(request):
+    if request.method == "POST" and form.is_valid():
+        print(request.POST)
+        print(form.cleaned_data)
+        data = form.cleaned_data
+        print(data["name"])
+
+        new_form = form.save()
+    return render(request, 'orders/order.html', locals())
+

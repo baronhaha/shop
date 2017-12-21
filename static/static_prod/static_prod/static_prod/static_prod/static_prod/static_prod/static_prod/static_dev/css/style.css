@@ -168,7 +168,7 @@ transform: rotate(1deg);}
 	-webkit-box-sizing:border-box;
 	   -moz-box-sizing:border-box;
 	        box-sizing:border-box;
-	max-width:180px;
+	max-width:210px;
 
 	padding: 20px 30px;
 	font-family: 'Lobster', cursive;
@@ -285,6 +285,10 @@ transform: rotate(1deg);}
 .checkout{
     margin-top: 5%;
     color: #69BCB9;
+}
+
+.top-bottom{
+    margin-top: 17%;
 }
 
 
