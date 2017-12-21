@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Pacifico&text=Pure");
 @import url("https://fonts.googleapis.com/css?family=Roboto:700&text=css");
 @import url("https://fonts.googleapis.com/css?family=Kaushan+Script&text=!");
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 
 html, body{
     height: 100%;
@@ -11,6 +12,10 @@ html, body{
 }
 .delete-item{
     color: #761c19;
+}
+
+.brief{
+    color: #440D59;
 }
 
 .bw:hover {
