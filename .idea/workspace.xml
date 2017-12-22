@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68a09b6d-72ed-4338-9ba9-f72f910a6b2f" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proba/settings_prod1.py" afterPath="$PROJECT_DIR$/proba/settings_prod.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/initial_data.json" afterPath="$PROJECT_DIR$/initial_data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proba/settings.py" afterPath="$PROJECT_DIR$/proba/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proba/settings_prod.py" afterPath="$PROJECT_DIR$/proba/settings_prod.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -205,8 +201,8 @@
         <option value="$PROJECT_DIR$/proba/urls.py" />
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/proba/settings_prod1.py" />
-        <option value="$PROJECT_DIR$/proba/settings_prod.py" />
         <option value="$PROJECT_DIR$/proba/settings.py" />
+        <option value="$PROJECT_DIR$/proba/settings_prod.py" />
       </list>
     </option>
   </component>
