@@ -10,6 +10,7 @@ https://docs.djangoproject.com/en/1.9/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.9/ref/settings/
 """
+# coding: utf-8
 
 import os
 
@@ -26,7 +27,7 @@ SECRET_KEY = 'pv4yw9)iqp0iq6!)n!=)36!dv@v%q6wty4x(hzw-y%5bf&lw)z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['www.goldteam.us']
+ALLOWED_HOSTS = ['www.goldteam.us', '127.0.0.1']
 
 
 # Application definition
@@ -38,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'django.contrib.sites',
     'landing',
     'products',
     'orders',
