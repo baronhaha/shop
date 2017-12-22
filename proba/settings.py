@@ -139,7 +139,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static",),
-    os.path.join(BASE_DIR, "bootstrap"),
+
 )
 
 STATIC_ROOT = os.path.join(BASE_DIR, "static", "static_prod")
@@ -151,6 +151,6 @@ ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 
 try:
-   from .settings_prod import *
+   from .settings_prod1 import *
 except:
    pass
