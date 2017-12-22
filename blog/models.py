@@ -1,5 +1,5 @@
 from django.db import models
-from django.db.models.signals import post_save
+
 
 class Post(models.Model):
     title = models.CharField(max_length=255) # заголовок поста

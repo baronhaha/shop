@@ -1,11 +1,11 @@
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'db1',
-        'USER': 'gold',
+        'USER': 'goldteam',
         'PASSWORD': 'qop000qop',
         'HOST': 'localhost',
         'PORT': '',
