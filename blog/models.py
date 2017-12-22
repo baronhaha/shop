@@ -12,4 +12,12 @@ class Post(models.Model):
     def get_absolute_url(self):
         return "/blog/%i/" % self.id
 
+    def save(self, *args, **kwargs):
+
+        self.title = title
+        print(self.title)
+
+
+
+        super(Post, self).save(*args, **kwargs)
 
