@@ -1,8 +1,9 @@
 from django.db import models
+from django.db.models.signals import post_save
 
 class Post(models.Model):
-    title = models.CharField(max_length=100) # заголовок поста
-    datetime = models.DateTimeField(u'Дата публикации') # дата публикации
+    title = models.CharField(max_length=255) # заголовок поста
+    datetime = models.DateTimeField('Дата публикации') # дата публикации
     content = models.TextField(max_length=10000) # текст поста
 
     def __unicode__(self):
