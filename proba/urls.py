@@ -26,7 +26,7 @@ urlpatterns = [
     url(r'^', include('landing.urls')),
     url(r'^', include('products.urls')),
     url(r'^', include('orders.urls')),
-    url(r'^blog/', include('blog.urls'))
+    url(r'^blog/$', include('blog.urls'))
 
 
 
