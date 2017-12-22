@@ -151,6 +151,6 @@ ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 
 try:
-   from .settings_prod1 import *
+   from .settings_prod import *
 except:
    pass
