@@ -18,6 +18,7 @@ build/
 tests/report/
 
 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -122,3 +123,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+
+public/uploads/
+public/vendor/
+
