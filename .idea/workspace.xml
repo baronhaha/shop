@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68a09b6d-72ed-4338-9ba9-f72f910a6b2f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proba/wsgi.py" afterPath="$PROJECT_DIR$/proba/wsgi.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/proba/settings_prod.py" afterPath="$PROJECT_DIR$/proba/settings_prod1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,15 +25,15 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/proba/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="154" column="22" lean-forward="false" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
+            <state relative-caret-position="264">
+              <caret line="156" column="7" lean-forward="true" selection-start-line="156" selection-start-column="7" selection-end-line="156" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings_prod.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proba/settings_prod.py">
+      <file leaf-file-name="settings_prod1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proba/settings_prod1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
@@ -205,8 +205,8 @@
         <option value="$PROJECT_DIR$/proba/settings_prod1.py" />
         <option value="$PROJECT_DIR$/proba/urls.py" />
         <option value="$PROJECT_DIR$/proba/settings_prod.py" />
-        <option value="$PROJECT_DIR$/proba/settings.py" />
         <option value="$PROJECT_DIR$/proba/wsgi.py" />
+        <option value="$PROJECT_DIR$/proba/settings.py" />
       </list>
     </option>
   </component>
@@ -217,8 +217,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1077" />
-    <option name="y" value="344" />
+    <option name="x" value="654" />
+    <option name="y" value="338" />
     <option name="width" value="1414" />
     <option name="height" value="747" />
   </component>
@@ -257,6 +257,11 @@
               <item name="proba" type="462c0819:PsiDirectoryNode" />
               <item name="proba" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="proba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proba" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -272,19 +277,19 @@
     <property name="SearchEverywhereHistoryKey" value="js&#9;FILE&#9;file://C:/proba/static/static_dev/js/chat.js&#10;vkbottom&#9;null&#9;null&#10;badge-n&#9;null&#9;null&#10;badge&#9;null&#9;null&#10;uh1&#9;null&#9;null&#10;SESSION_COOKIE&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\proba\static" />
-      <recent name="C:\proba" />
-      <recent name="C:\proba\static\static_dev\img" />
-      <recent name="C:\proba\templates" />
-      <recent name="C:\proba\static\static_dev" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\proba\templates\firstblog" />
       <recent name="C:\proba\templates\landing" />
       <recent name="C:\proba\templates\blog" />
       <recent name="C:\proba\static\static_dev\fonts" />
       <recent name="C:\proba\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\proba\static" />
+      <recent name="C:\proba" />
+      <recent name="C:\proba\static\static_dev\img" />
+      <recent name="C:\proba\templates" />
+      <recent name="C:\proba\static\static_dev" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -379,7 +384,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1077" y="344" width="1414" height="747" extended-state="0" />
+    <frame x="654" y="338" width="1414" height="747" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20648968" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -809,14 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proba/settings_prod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proba/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -827,10 +824,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/proba/settings_prod1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/proba/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="154" column="22" lean-forward="false" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
+        <state relative-caret-position="264">
+          <caret line="156" column="7" lean-forward="true" selection-start-line="156" selection-start-column="7" selection-end-line="156" selection-end-column="7" />
           <folding />
         </state>
       </provider>
