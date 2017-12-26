@@ -14,7 +14,7 @@ import django.core.handlers.wsgi
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "proba.settings")
 
 application = get_wsgi_application()
-# application = django.core.handlers.wsgi.WSGIHandler()
+application = django.core.handlers.wsgi.WSGIHandler()
 
 # This application object is used by the development server
 # as well as any WSGI server configured to use this file.
