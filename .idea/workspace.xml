@@ -1,143 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/proba/settings.py" line="158" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/proba/settings.py" line="157" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68a09b6d-72ed-4338-9ba9-f72f910a6b2f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/css/changelists.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/css/dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/css/fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/css/forms.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/css/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/css/widgets.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/fonts/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/fonts/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/fonts/Roboto-Bold-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/fonts/Roboto-Light-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/fonts/Roboto-Regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/calendar-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/gis/move_vertex_off.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/gis/move_vertex_on.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/icon-addlink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/icon-alert.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/icon-calendar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/icon-changelink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/icon-clock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/icon-deletelink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/icon-no.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/icon-unknown-alt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/icon-unknown.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/icon-yes.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/inline-delete.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/selector-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/sorting-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/tooltag-add.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/img/tooltag-arrowright.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/SelectBox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/SelectFilter2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/actions.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/admin/DateTimeShortcuts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/admin/RelatedObjectLookups.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/cancel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/change_form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/collapse.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/inlines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/inlines.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/jquery.init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/popup_response.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/prepopulate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/prepopulate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/prepopulate_init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/timeparse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/urlify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/vendor/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/vendor/jquery/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/vendor/xregexp/xregexp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/admin/js/vendor/xregexp/xregexp.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/1db739314b06f9307e85563264513a9b_RSZ_690.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/blu6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/content.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/gal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/google.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/images.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/images_ZiIAprG.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/index.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/index.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/index3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/int.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/kodgoldteam.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/kontent-goldteam.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/logo-gold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/obvodka-300x206.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/social.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/website.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/логотип-goldteam.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/1db739314b06f9307e85563264513a9b_RSZ_690.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/blu6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/content.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/gal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/google.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/images.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/images_ZiIAprG.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/index.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/index.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/index3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/int.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/kodgoldteam.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/kontent-goldteam.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/logo-gold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/obvodka-300x206.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/social.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/website.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/логотип-goldteam.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/blog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/chat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/test.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/css/webcam.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/android-chrome-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/android-chrome-192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/android-chrome-36x36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/android-chrome-48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/android-chrome-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/android-chrome-96x96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/browserconfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/favicon-16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/favicon-194x194.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/favicon-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/mstile-150x150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/favicons/safari-pinned-tab.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/img/bg_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/img/brif-goldteam.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/img/favicon-16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/img/fon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/img/image2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/chat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/jquery-2.2.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/jquery.bootstrap-autohidingnavbar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/jquery.mycart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/mycanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/scripts.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proba/settings.py" afterPath="$PROJECT_DIR$/proba/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blog/post_detail.html" afterPath="$PROJECT_DIR$/templates/blog/post_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blog/post_list.html" afterPath="$PROJECT_DIR$/templates/blog/post_list.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -154,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proba/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="155" column="36" lean-forward="false" selection-start-line="155" selection-start-column="36" selection-end-line="155" selection-end-column="36" />
+            <state relative-caret-position="332">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,7 +37,7 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-753">
+            <state relative-caret-position="-739">
               <caret line="24" column="91" lean-forward="false" selection-start-line="24" selection-start-column="91" selection-end-line="24" selection-end-column="91" />
               <folding />
             </state>
@@ -228,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_detail.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="post_detail.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/blog/post_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -251,8 +121,8 @@
       <file leaf-file-name="post_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog/post_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -332,9 +202,9 @@
         <option value="$PROJECT_DIR$/proba/settings_prod.py" />
         <option value="$PROJECT_DIR$/proba/wsgi.py" />
         <option value="$PROJECT_DIR$/blog/models.py" />
-        <option value="$PROJECT_DIR$/templates/blog/post_detail.html" />
-        <option value="$PROJECT_DIR$/templates/blog/post_list.html" />
         <option value="$PROJECT_DIR$/proba/settings.py" />
+        <option value="$PROJECT_DIR$/templates/blog/post_list.html" />
+        <option value="$PROJECT_DIR$/templates/blog/post_detail.html" />
       </list>
     </option>
   </component>
@@ -383,6 +253,17 @@
               <item name="proba" type="b2602c69:ProjectViewProjectNode" />
               <item name="proba" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proba" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proba" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -508,6 +389,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="514" y="110" width="1414" height="747" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20943953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -517,7 +399,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32626426" sideWeight="0.66887903" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32626426" sideWeight="0.66887903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -899,14 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-753">
-          <caret line="24" column="91" lean-forward="false" selection-start-line="24" selection-start-column="91" selection-end-line="24" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proba/settings_prod1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -939,26 +813,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/post_detail.html">
+    <entry file="file://$PROJECT_DIR$/proba/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="332">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-739">
+          <caret line="24" column="91" lean-forward="false" selection-start-line="24" selection-start-column="91" selection-end-line="24" selection-end-column="91" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proba/settings.py">
+    <entry file="file://$PROJECT_DIR$/templates/blog/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="155" column="36" lean-forward="false" selection-start-line="155" selection-start-column="36" selection-end-line="155" selection-end-column="36" />
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>

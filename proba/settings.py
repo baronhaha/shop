@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'landing',
     'products',
     'orders',
-    'disqus',
+
     'blog',
 
 
@@ -152,8 +152,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "static", "media")
 ADMIN_MEDIA_PREFIX = '/static/admin/'
 
-DISQUS_API_KEY = 'HiElGsTlaFfQUtWFh7yRku29SG0mfRRPiIFDGkZfOYtlaYGsVtImaH4uq2dhYUAq'
-DISQUS_WEBSITE_SHORTNAME = 'goldteam'
+
 
 
 try:
