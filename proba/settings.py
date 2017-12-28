@@ -45,6 +45,9 @@ INSTALLED_APPS = [
     'orders',
     'disqus',
     'blog',
+    'ckeditor',
+    'ckeditor_uploader',
+
 
 
 ]
@@ -140,6 +143,7 @@ STATICFILES_FINDERS = (
 )
 STATIC_URL = '/static/'
 
+
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static",),
 
@@ -154,6 +158,22 @@ ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 DISQUS_API_KEY = 'HiElGsTlaFfQUtWFh7yRku29SG0mfRRPiIFDGkZfOYtlaYGsVtImaH4uq2dhYUAq'
 DISQUS_WEBSITE_SHORTNAME = 'goldteam'
+
+CKEDITOR_UPLOAD_PATH = "uploads/"
+
+
+
+CKEDITOR_CONFIGS = {
+
+    'default': {
+
+     'toolbar': 'None'
+
+    },
+
+}
+
+
 
 
 try:
