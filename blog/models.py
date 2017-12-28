@@ -4,7 +4,7 @@ from ckeditor_uploader.fields import RichTextUploadingField
 
 
 class Post(models.Model):
-    title = models.CharField(max_length=40) # заголовок поста
+    title = models.CharField(max_length=60) # заголовок поста
     datetime = models.DateTimeField(u'Дата публикации') # дата публикации
     content = RichTextUploadingField() # текст поста
 
