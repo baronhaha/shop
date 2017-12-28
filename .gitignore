@@ -129,3 +129,6 @@ venv.bak/
 public/uploads/
 public/vendor/
 
+# Ignore the default SQLite database.
+/db/*.sqlite3
+
