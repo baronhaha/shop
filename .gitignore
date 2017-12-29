@@ -130,5 +130,5 @@ public/uploads/
 public/vendor/
 
 /db/*.sqlite3
-/media
+/static/media
 
