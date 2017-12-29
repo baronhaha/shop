@@ -6,32 +6,24 @@
 
 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
  <div class="product-item bw">
-
-    <div >
-
-        <a href="{% url 'product' product_image.product.id %}">
-             <img src="{{ product_image.image.url }}" class="img-responsive center-block">
+     <div class="imgbox">
+         <a href="{% url 'product' product_image.product.id %}">
+             <img src="{{ product_image.image.url }}" class="img-responsive img-rounded center-block">
         </a>
-    </div>
+     </div>
 
-    {% if product_image.product.discount %}
+       {% if product_image.product.discount %}
         <div class="discount-container">
             <span>{{ product_image.product.discount }}%</span>
         </div>
-    {% endif %}
-    <h4>{{ product_image.product.name }}</h4>
-    <p>
+      {% endif %}
+      <h4>{{ product_image.product.name }}</h4>
+      <p>
         {{ product_image.product.short_description }}
-    </p>
-    <div>
+      </p>
+     <div class="pricebottom">
         {{ product_image.product.price }} РУБ
-    </div>
-    <div>
-
-
-
-    </div>
-
+     </div>
 
  </div>
 </div>

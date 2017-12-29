@@ -53,18 +53,26 @@ transform: rotate(1deg);}
     background-color: #B9A6E0;
 }
 
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.imgbox{
+    height: 60%;
+    width: auto;
+}
+.pricebottom{
+    position: absolute;
+    bottom: 5px;
+    text-shadow: 2px 2px 5px #8C7BB2;
 }
 
+
+.img-responsive {
+  display: inline-block;
+  height: 100%;
+  width: auto;
+}
 
 .product-item{
     overflow: hidden;
     height: 300px;
-
-
     background-color: #F9F5FF;
     border: 1px solid lightgrey;
     position: relative;
