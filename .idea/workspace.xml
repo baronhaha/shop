@@ -1228,7 +1228,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/jquery-2.2.3.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/jquery.mycart.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/scripts.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static_dev/css/blog.css" afterPath="$PROJECT_DIR$/static/static_dev/css/blog.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1493,19 +1492,19 @@
     <property name="SearchEverywhereHistoryKey" value="js&#9;FILE&#9;file://C:/proba/static/static_dev/js/chat.js&#10;vkbottom&#9;null&#9;null&#10;badge-n&#9;null&#9;null&#10;badge&#9;null&#9;null&#10;uh1&#9;null&#9;null&#10;SESSION_COOKIE&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\proba\static\static_dev\img" />
-      <recent name="C:\proba\templates\firstblog" />
-      <recent name="C:\proba\templates\landing" />
-      <recent name="C:\proba\templates\blog" />
-      <recent name="C:\proba\static\static_dev\fonts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\proba\static" />
       <recent name="C:\proba" />
       <recent name="C:\proba\static\static_dev\img" />
       <recent name="C:\proba\templates" />
       <recent name="C:\proba\static\static_dev" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\proba\static\static_dev\img" />
+      <recent name="C:\proba\templates\firstblog" />
+      <recent name="C:\proba\templates\landing" />
+      <recent name="C:\proba\templates\blog" />
+      <recent name="C:\proba\static\static_dev\fonts" />
     </key>
   </component>
   <component name="RunDashboard">
