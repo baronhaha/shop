@@ -45,7 +45,13 @@
                       <!-- Tab panes -->
                       <div class="tab-content product-description-tabs">
                         <div role="tabpanel" class="tab-pane active" id="description">
-                            <h4>{{ product.description }}</h4>
+                            {% autoescape off %}
+
+    <h2>{{ product.name }}</h2>
+    <p><h4>{{ product.description }}</h4></p>
+        {% endautoescape %}
+        
+
                         </div>
                         <div role="tabpanel" class="tab-pane" id="about">
                             <h4>Сроки исполнения заказов индивидуальны и могут зависеть от многих параметров(общий объем работ, дизайн, контент, вид применяемых технологии и так далее). Пожалуйста, скачайте бриф на нашем сайте или заполните Техническое Задание в свободной форме и отправьте на home@goldteam.us</h4>
