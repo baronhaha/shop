@@ -13,8 +13,12 @@ html, body{
 
 .bgfordescription{
     background-color: white;
-    padding: 20px;
+
     border-radius: 8px;
+    adding-block-start: 10px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-block-end: 8px;
 }
 .delete-item{
     color: #761c19;

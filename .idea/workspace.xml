@@ -1152,8 +1152,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/ckeditor/galleriffic/js/jquery.history.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/ckeditor/galleriffic/js/jquery.opacityrollover.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/ckeditor/galleriffic/js/jush.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/hitcount/hitcount-jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/hitcount/jquery.postcsrf.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/1db739314b06f9307e85563264513a9b_RSZ_690.jpeg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/45372hd.jpeg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/Pikachu_Evolution.jpg" afterPath="" />
@@ -1175,6 +1173,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/social.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/website.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/products_images/логотип-goldteam.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/media/uploads/2018/01/04/smi.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/1db739314b06f9307e85563264513a9b_RSZ_690.jpeg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/45372hd.jpeg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/products_images/Pikachu_Evolution.jpg" afterPath="" />
@@ -1241,9 +1240,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/jquery.mycart.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/scripts.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/static_dev/js/star-rating.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/uploads/2018/01/04/smi.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static_dev/css/style.css" afterPath="$PROJECT_DIR$/static/static_dev/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/products/product.html" afterPath="$PROJECT_DIR$/templates/products/product.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1284,11 +1282,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/static_dev/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2448">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="34">
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -1336,7 +1334,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/products/product.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -1443,8 +1441,8 @@
         <option value="$PROJECT_DIR$/templates/blog/post_detail.html" />
         <option value="$PROJECT_DIR$/proba/settings.py" />
         <option value="$PROJECT_DIR$/products/models.py" />
-        <option value="$PROJECT_DIR$/static/static_dev/css/style.css" />
         <option value="$PROJECT_DIR$/templates/products/product.html" />
+        <option value="$PROJECT_DIR$/static/static_dev/css/style.css" />
       </list>
     </option>
   </component>
@@ -1455,8 +1453,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="479" />
-    <option name="y" value="204" />
+    <option name="x" value="510" />
+    <option name="y" value="105" />
     <option name="width" value="1414" />
     <option name="height" value="707" />
   </component>
@@ -1622,7 +1620,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="479" y="204" width="1414" height="707" extended-state="0" />
+    <frame x="510" y="105" width="1414" height="707" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2300885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2074,18 +2072,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/static_dev/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2448">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/products/product.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/static_dev/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding />
         </state>
       </provider>
