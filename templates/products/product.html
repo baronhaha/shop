@@ -47,10 +47,12 @@
                         <div role="tabpanel" class="tab-pane active" id="description">
                             {% autoescape off %}
 
-    <h2>{{ product.name }}</h2>
+
+    <div class="bgfordescription">
     <p><h4>{{ product.description }}</h4></p>
         {% endautoescape %}
-        
+    </div>
+
 
                         </div>
                         <div role="tabpanel" class="tab-pane" id="about">

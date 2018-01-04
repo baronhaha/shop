@@ -11,7 +11,11 @@ html, body{
     background-position: top;
 }
 
-
+.bgfordescription{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
 .delete-item{
     color: #761c19;
 }
