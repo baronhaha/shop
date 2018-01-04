@@ -5,7 +5,7 @@
 {% block content %}
     <div class="container" xmlns="http://www.w3.org/1999/html">
         <div class="row">
-            <div class="col-lg-6 product-image-item">
+            <div class="col-lg-4 product-image-item">
                 {% for image_item in product.productimage_set.all %}
                     <div class="product-image-item">
                         <img src="{{ image_item.image.url }}" class="img-responsive2 center-block img-thumbnail">
@@ -16,7 +16,7 @@
                     </div>
                 {% endfor %}
             </div>
-            <div class="col-lg-6 indent">
+            <div class="col-lg-8 indent">
                 <h1 class="text-center color" >
                     {{ product.name }}
                 </h1>
