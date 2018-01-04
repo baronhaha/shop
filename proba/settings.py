@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'blog',
     'ckeditor',
     'ckeditor_uploader',
-    'hitcount',
+
     'star_ratings'
 
 
