@@ -86,7 +86,9 @@ transform: rotate(1deg);}
     bottom: 5px;
     text-shadow: 2px 2px 5px #8C7BB2;
 }
-
+.name{
+    text-shadow: 4px 4px 11px #8C8BB2;
+}
 
 .img-responsive {
   display: inline-block;
