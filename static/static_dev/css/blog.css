@@ -4,5 +4,10 @@
     font-size: 20px;
     background-color: white;
     border-radius: 10px;
-    border-style: dotted;
+    margin-bottom: 20px;
+    border-bottom-style: double;
+    border-left-style: outset;
+    border-right-style: inset;
+    border-top-style: double;
+
 }

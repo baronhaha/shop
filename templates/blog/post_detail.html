@@ -5,8 +5,6 @@
 
 {% block content %}
 
-{% get_hit_count_js_variables for post as hitcount %}
-{% get_hit_count for post as total_hits %}
 
 
 
@@ -21,18 +19,21 @@
     <p>{{ post.content }}</p>
 
 
-             <dl class="dl-horizontal">
-
-      <dt>Просмотров:</dt>
-      <dd>{{ total_hits }}</dd>
-
-      <dt>Уникальных:</dt>
+             {% comment %}<h2>Hitcount Info</h2>
+    <dl class="dl-horizontal">
+      <dt>Total Hits:</dt>
+      <dd>{{ hitcount.total_hits }}</dd>
+      <dt>The unique PK is:</dt>
       <dd>{{ hitcount.pk }}</dd>
-
-
+      <dt>Hit counted?</dt>
+      <dd id="hit-counted">
+        <i id="hit-counted-value">{{ hitcount.hit_counted }}</i>
+      </dd>
+      <dt>Hit response:</dt>
+      <dd id="hit-response">{{ hitcount.hit_message }}</dd>
+      </dd>
 </dl>
-
-            {% ratings object %}
+     {% endcomment %}       {% ratings object %}
 
 
         {% endautoescape %}

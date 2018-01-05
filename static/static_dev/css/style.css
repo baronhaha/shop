@@ -60,7 +60,9 @@ transform: rotate(1deg);}
     margin-top: -80px;
     height: 80px;
     clear: both;
-    background-color: #B9A6E0;
+    background: linear-gradient(to top, #B1A7D3, #FBF4FB);
+    font-family: 'Tillana', cursive;
+
 }
 .thumb-wrap {
   position: relative;
@@ -289,12 +291,12 @@ transform: rotate(1deg);}
 
 
 .pulse{
-    margin-top: 1%;
+
     animation-name: pulse;
     -webkit-animation-name: pulse;
 
-    animation-duration: 5s;
-    -webkit-animation-duration: 5s;
+    animation-duration: 1s;
+    -webkit-animation-duration: 2s;
 
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
@@ -302,7 +304,7 @@ transform: rotate(1deg);}
 
 @keyframes pulse {
     0% {
-        transform: scale(0.9);
+        transform: scale(0.95);
         opacity: 0.9;
     }
     75% {
@@ -310,7 +312,7 @@ transform: rotate(1deg);}
         opacity: 1;
     }
     100% {
-        transform: scale(0.9);
+        transform: scale(0.95);
         opacity: 0.9;
     }
 }

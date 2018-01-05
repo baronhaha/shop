@@ -1,24 +1,40 @@
  /* цвет фона и рамки навигационного меню */
 .navbar-default {
-    background: rgba(81, 76, 116, 0.7);
-    border: none;
-    border-radius: 0px;
+
+    background: linear-gradient(to bottom, #FBF4FB, rgba(81, 76, 116, 0.6), #FBF4FB);
+    border: #B1A7D3;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
 }
+
+
+ .navbar-brand{
+     font-family: 'Akronim', cursive;
+     font-size: xx-large;
+     color: white;
+ }
+ .navbar-nav{
+     font-family: 'Amatic SC', cursive;
+     font-size: xx-large;
+ }
 
 
 
  /* цвет текста, содержащий название сайта или бренда */
     .navbar-default .navbar-brand {
-        color: #E9E9EB;
+        color: white;
     }
     /* цвет текста (название сайта или бренда), при поднесении к нему курсора мышки или при его нахождении в фокусе */
     .navbar-default .navbar-brand:hover,
     .navbar-default .navbar-brand:focus {
-        color: #d1ffed;
+        color: white;
+
+
     }
     /* Цвет пунктов навигационного меню */
     .navbar-default .navbar-nav > li > a {
-        color: #f0ad4e;
+        color: #1e347b;
     }
     /* Цвет пункта меню, при поднесении к нему курсора мышки или при его нахождении в фокусе */
     .navbar-default .navbar-nav > li > a:hover,
@@ -29,7 +45,7 @@
     .navbar-default .navbar-nav > .active > a,
     .navbar-default .navbar-nav > .active > a:hover,
     .navbar-default .navbar-nav > .active > a:focus {
-        color: #f0ad4e;
+        color: #1e347b;
         background-color: inherit;
     }
     /* Цвет и фон открытого пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
