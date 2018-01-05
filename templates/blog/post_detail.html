@@ -1,10 +1,14 @@
  {% extends 'base.html' %}
 {% load static %}
 {% load ratings %}
+{% load hitcount_tags %}
 
 {% block content %}
-   <link rel="stylesheet" href="{% static '/static_dev/css/star-rating.css' %}">
-<script type="text/javascript" src="{% static '/static_dev/js/star-rating.min.js' %}"></script>
+
+{% get_hit_count_js_variables for post as hitcount %}
+{% get_hit_count for post as total_hits %}
+
+
 
   <div class="container">
    <div class="row">
@@ -12,9 +16,22 @@
 
         {% autoescape off %}
     <h2>{{ post.title }}</h2>
+            <h5><p>{{ post.datetime }}</p></h5>
 
     <p>{{ post.content }}</p>
-            <h5><p>{{ post.datetime }}</p></h5>
+
+
+             <dl class="dl-horizontal">
+
+      <dt>Просмотров:</dt>
+      <dd>{{ total_hits }}</dd>
+
+      <dt>Уникальных:</dt>
+      <dd>{{ hitcount.pk }}</dd>
+
+
+</dl>
+
             {% ratings object %}
 
 

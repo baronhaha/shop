@@ -28,7 +28,8 @@ urlpatterns = [
     url(r'^', include('orders.urls')),
     url(r'^blog/', include('blog.urls')),
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
-url(r'^ratings/', include('star_ratings.urls', namespace='ratings', app_name='ratings')),
+    url(r'^ratings/', include('star_ratings.urls', namespace='ratings', app_name='ratings')),
+    url(r'hitcount/', include('hitcount.urls', namespace='hitcount')),
 
 
 

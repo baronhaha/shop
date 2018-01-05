@@ -47,9 +47,8 @@ INSTALLED_APPS = [
     'blog',
     'ckeditor',
     'ckeditor_uploader',
-
-    'star_ratings'
-
+    'star_ratings',
+    'hitcount',
 
 
 ]
@@ -82,6 +81,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
 
                 'orders.context_processors.getting_basket_info',
+
             ],
         },
     },
@@ -175,8 +175,8 @@ CKEDITOR_CONFIGS = {
 
 }
 
+STAR_RATINGS_RERATE = True
 STAR_RATINGS_ANONYMOUS = True
-
 
 
 try:

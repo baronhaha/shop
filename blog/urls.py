@@ -10,4 +10,5 @@ url(r'^$', PostsListView.as_view(), name='list'), # то есть по URL http:
 url(r'^(?P<pk>\d+)/$', PostDetailView.as_view()), # а по URL http://имя_сайта/blog/число/
                                               # будет выводиться пост с определенным номером
 
+
 ]
