@@ -175,6 +175,8 @@ CKEDITOR_CONFIGS = {
 
 }
 
+STAR_RATINGS_ANONYMOUS = True
+
 
 
 try:
