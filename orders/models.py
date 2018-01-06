@@ -3,6 +3,7 @@ from products.models import Product
 from django.db.models.signals import post_save
 from django.contrib.auth.models import User
 from utils.main import disable_for_loaddata
+from ckeditor_uploader.fields import RichTextUploadingField
 
 
 class Status(models.Model):
@@ -112,3 +113,16 @@ class ProductInBasket(models.Model):
         self.total_price = int(self.nmb) * price_per_item
 
         super(ProductInBasket, self).save(*args, **kwargs)
+
+class Orderpost(models.Model):
+    title = models.CharField(max_length=60) # заголовок поста
+    datetime = models.DateTimeField(u'Дата публикации') # дата публикации
+    content = RichTextUploadingField() # текст поста
+
+    class Meta:
+        verbose_name = 'Описание страницы Заказать'
+        verbose_name_plural = 'Описание страницы Заказать'
+
+
+    def __str__(self):
+         return "%s" % (self.title)

@@ -13,7 +13,7 @@ html, body{
 
 .bgfordescription{
     background-color: white;
-
+    border: 1px solid;
     border-radius: 8px;
     adding-block-start: 10px;
     padding-right: 7px;

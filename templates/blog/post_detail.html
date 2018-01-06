@@ -4,8 +4,9 @@
 {% load hitcount_tags %}
 
 {% block content %}
-
-
+<html>
+<script type="text/javascript" src="{% static '/static_dev/js/star-rating.min.js' %}"></script>
+    <link rel="stylesheet" href="{% static '/static_dev/css/star-rating.css' %}">
 
 
   <div class="container">
@@ -47,4 +48,5 @@
     </div>
    </div>
   </div>
+    </html>
 {% endblock %}

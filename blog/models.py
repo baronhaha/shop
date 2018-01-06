@@ -13,6 +13,12 @@ class Post(models.Model, HitCountMixin):
         HitCount, object_id_field='object_pk',
         related_query_name='hit_count_generic_relation')
 
+
+
+
+
+
+
     def __unicode__(self):
         return self.title
 
