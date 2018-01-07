@@ -2,12 +2,9 @@
     margin-top: 100px;
     color: #443752;
     font-size: 20px;
-    background-color: white;
+    background-color: #fffcff;
     border-radius: 10px;
     margin-bottom: 20px;
-    border-bottom-style: double;
-    border-left-style: outset;
-    border-right-style: inset;
-    border-top-style: double;
+    border: 1px solid;
 
 }
