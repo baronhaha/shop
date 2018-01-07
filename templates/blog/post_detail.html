@@ -1,7 +1,9 @@
  {% extends 'base.html' %}
 {% load static %}
+{% comment %}
 {% load ratings %}
 {% load hitcount_tags %}
+{% endcomment %}
 
 {% block content %}
 <html>
@@ -19,8 +21,19 @@
 
     <p>{{ post.content }}</p>
 
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112083027-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-             {% comment %}<h2>Hitcount Info</h2>
+  gtag('config', 'UA-112083027-1');
+</script>
+
+
+             {% comment %}
+             <h2>Hitcount Info</h2>
     <dl class="dl-horizontal">
       <dt>Total Hits:</dt>
       <dd>{{ hitcount.total_hits }}</dd>
@@ -34,7 +47,8 @@
       <dd id="hit-response">{{ hitcount.hit_message }}</dd>
       </dd>
 </dl>
-     {% endcomment %}       {% ratings object %}
+     {% ratings object %}
+     {% endcomment %}
 
 
         {% endautoescape %}
