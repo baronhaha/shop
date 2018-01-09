@@ -1,0 +1,131 @@
+ /* цвет фона и рамки навигационного меню */
+.navbar-default {
+
+    background: linear-gradient(to bottom, #FBF4FB, rgba(81, 76, 116, 0.6), #FBF4FB);
+    border: #B1A7D3;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+
+ .navbar-brand{
+     font-family: 'Akronim', cursive;
+     font-size: xx-large;
+     color: white;
+ }
+ .navbar-nav{
+     font-family: 'Amatic SC', cursive;
+     font-size: xx-large;
+ }
+
+
+
+ /* цвет текста, содержащий название сайта или бренда */
+    .navbar-default .navbar-brand {
+        color: white;
+    }
+    /* цвет текста (название сайта или бренда), при поднесении к нему курсора мышки или при его нахождении в фокусе */
+    .navbar-default .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus {
+        color: white;
+
+
+    }
+    /* Цвет пунктов навигационного меню */
+    .navbar-default .navbar-nav > li > a {
+        color: #f0ad4e;
+        text-shadow: 0px 1px 2px black, 0 0 1em orange;
+    }
+    /* Цвет пункта меню, при поднесении к нему курсора мышки или при его нахождении в фокусе */
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        color: #56416e;
+    }
+    /* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus {
+        color: #f0ad4e;
+        background-color: inherit;
+    }
+    /* Цвет и фон открытого пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
+    .navbar-default .navbar-nav > .open > a:focus {
+        color: #6EBCC1;
+        background-color: #6C6B8B;
+    }
+    /* Цвет стрелочки (треугольничка) у раскрывающихся пунктов меню */
+    .navbar-default .navbar-nav > .dropdown > a .caret {
+        border-top-color: #B9A6E0;
+        border-bottom-color: #B9A6E0;
+    }
+    /* Цвет стрелочки (треугольничка) при поднесении к нему курсора мышки или при его нахождении в фокусе */
+    .navbar-default .navbar-nav > .dropdown > a:hover .caret,
+    .navbar-default .navbar-nav > .dropdown > a:focus .caret {
+        border-top-color: #918AD9;
+        border-bottom-color: #918AD9;
+    }
+    /* Цвет стрелочки (треугольничка), открывшегося пункта меню */
+    .navbar-default .navbar-nav > .open > a .caret,
+    .navbar-default .navbar-nav > .open > a:hover .caret,
+    .navbar-default .navbar-nav > .open > a:focus .caret {
+        border-top-color: #2D2E45;
+        border-bottom-color: #2D2E45;
+    }
+    /* CSS стили для мобильных устройств */
+    /* Цвет рамки у кнопки, которая открывает меню */
+    .navbar-default .navbar-toggle {
+        border-color: #B9A5E0;
+        max-width: 44px;
+
+    }
+    /* Цвет фона кнопки (которая открывает меню) при поднесении к ней курсора мышки или при нахождении её в фокусе */
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: #B1A7D3;
+        max-width: 44px;
+    }
+    /* Цвет полосочек в кнопочке, которая открывает меню */
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ecf0f1;
+    }
+    /* Цвет пунктов меню в раскрывающихся списках */
+    @media (max-width: 767px) {
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+            color: #ecf0f1;
+      }
+    /* Цвет и фон пункта меню в раскрывающихся списках, при поднесении к нему курсора мышки или при нахождении его в фокусе */
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: #d1ffed;
+            background-color: #C6B7E4;
+        }
+    }
+ .navbar-top{
+     min-height: 10px;
+     height: 20px;
+     background-color: mediumslateblue;
+     border: none;
+     border-radius: 0px;
+
+ }
+
+ .basket-container{
+     position: relative;
+
+     width: 350px;
+     padding: 15px 5px;
+
+ }
+
+ .basket-items{
+     position: absolute;
+     top: 50px;
+     width: 100%;
+     background-color: lightsteelblue;
+     z-index: 10;
+     padding: 5px;
+
+ }

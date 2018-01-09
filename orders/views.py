@@ -3,6 +3,7 @@ from .models import *
 from django.shortcuts import render
 from .forms import CheckoutContactForm
 from django.contrib.auth.models import User
+from orders.models import *
 
 
 
@@ -98,12 +99,14 @@ def chat(request):
     return render(request, 'orders/chat.html', locals())
 
 def order(request):
-    if request.method == "POST" and form.is_valid():
-        print(request.POST)
-        print(form.cleaned_data)
-        data = form.cleaned_data
-        print(data["name"])
+    model = Orderpost.objects.get()
 
-        new_form = form.save()
     return render(request, 'orders/order.html', locals())
+
+
+
+
+
+
+
 

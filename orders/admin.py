@@ -46,6 +46,14 @@ class OrderpostAdmin (admin.ModelAdmin):
     list_display = [field.name for field in Orderpost._meta.fields]
 
     class Meta:
-        model = Orderpost
+        model = Product
 
 admin.site.register(Orderpost, OrderpostAdmin)
+
+#class OrderpostAdmin (admin.ModelAdmin):
+
+
+   # class Meta:
+     #   model = Orderpost
+
+

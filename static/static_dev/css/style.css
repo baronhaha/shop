@@ -24,9 +24,7 @@ html, body{
     color: #761c19;
 }
 
-.brief{
-    color: #440D59;
-}
+
 .paddingbrief{
     padding: 10px;
 }
@@ -62,6 +60,7 @@ transform: rotate(1deg);}
     clear: both;
     background: linear-gradient(to top, #B1A7D3, #FBF4FB);
     font-family: 'Tillana', cursive;
+    color: black;
 
 }
 .thumb-wrap {

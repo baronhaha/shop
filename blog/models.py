@@ -15,10 +15,6 @@ class Post(models.Model, HitCountMixin):
 
 
 
-
-
-
-
     def __unicode__(self):
         return self.title
 

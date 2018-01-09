@@ -1,50 +1,32 @@
 {% extends 'base.html' %}
 {% load static %}
+
 {% block content %}
 
 
+<html>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
     <meta charset="UTF-8">
     <title>Бриф на создание сайта и другие услуги GoldTeam Studio</title>
-</head>
-<body>
+
+
 <div class="container">
     <div class="row">
-        <div class="col-lg-12">
-
-            <div class="container">
-             <div class="row">
-              <div class="col-lg-12 top-bottom brief">
-                  {{ post.datetime }}
-                  <p>{{ Orderpost.content }}</p>
-                   <h4>{{ product_image.product.name }}</h4>
-                   Бриф (от английского brief) — небольшая анкета согласительного плана между клиентом и исполнителем, в которой закрепляются важные параметры и данные разрабатываемого продукта или услуги. Бриф по сути является техническим заданием. Именно благодаря нему исполнителю становятся понятными исходные данные, в том числе маркетинговые, а также предпочтения заказчика, что позволяет создать продукт, полностью отвечающий требованиям рынка, а также целям и задачам, перед ним поставленным.
-                  Его можно сравнить с техническим заданием. <br>Невозможно построить дом, если нет чертежа, перечня материалов и примерной стоимости, ну, хотя бы, просто в голове. В принципе, возможность построить некое сооружение всё же есть, однако, нервы, деньги, время будут потрачены неразумно. Более того, если первоначально не были обозначены никакие параметры жилища, то в завершенном состоянии "детище" может и напугать. Пользы не принесет точно никакой.
-                  <br><h3>Бриф – это опросная анкета, дающая нам понять исходные данные, какой именно сайт Вам нужен. Также Вы можете связаться с нами по телефону +7(937)5257733 или написать по адресу home@goldteam.us
-              </div>
-             </div>
-            </div>
-
-            <div class="container">
-             <div class="row">
-              <div class="col-lg-12 paddingbrief">
-                  <h2>{{ post.datetime }}</h2>
-                  <a href="/static/static_dev/img/brif-goldteam.docx" class="btn-buy">Скачать бриф</a>
-
-              </div>
-             </div>
-            </div>
+        <div class="col-lg-12 top-bottom">
 
 
+{% autoescape off %}
+
+    {{ model.content|safe }}
+
+{% endautoescape %}
+<a href="/static/static_dev/img/brif-goldteam.docx" class="btn-buy">Скачать бриф</a>
 
 
-       </div>
+        </div>
     </div>
 </div>
 
-</body>
+
 </html>
 {% endblock %}
