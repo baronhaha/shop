@@ -1,5 +1,5 @@
 .topblog{
-    margin-top: 100px;
+
     color: black;
     font-size: 20px;
     background-color: #fffcff;
@@ -9,3 +9,19 @@
     border-color: gainsboro;
 
 }
+.affix {
+    color: black;
+    padding: 7px 7px 7px 7px;
+    background-color: #fffcff;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #d9edf7;
+
+}
+@media (max-width: 1200px) {
+  .affix {
+    position: static;
+  }
+}
+
+

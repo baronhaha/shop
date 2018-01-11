@@ -9,6 +9,7 @@ html, body{
     font-family: 'Roboto', sans-serif;
     background: #FBF4FB;
     background-position: top;
+    padding: 30px 0 0 0;
 }
 
 .bgfordescription{
@@ -66,7 +67,7 @@ transform: rotate(1deg);}
 .thumb-wrap {
   position: relative;
   padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
-  padding-top: 30px;
+  padding-top: 0;
   height: 0;
   overflow: hidden;
 }
@@ -88,7 +89,8 @@ transform: rotate(1deg);}
     text-shadow: 2px 2px 5px #8C7BB2;
 }
 .name{
-    text-shadow: 4px 4px 11px #8C8BB2;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 4px 4px 11px #002b36;
 }
 
 .img-responsive {
@@ -111,7 +113,7 @@ transform: rotate(1deg);}
     padding: 4px;
     text-align: center;
     border-radius: 8px;
-    margin-top: 25px;
+
     margin-bottom: 10px;
   #  animation-name: expandOpen;
    # -webkit-animation-name: expandOpen;
@@ -204,7 +206,7 @@ transform: rotate(1deg);}
 }
 
 .indent{
-    margin-top: 6%;
+
 }
 
 .product-image-item{

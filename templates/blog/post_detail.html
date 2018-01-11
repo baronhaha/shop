@@ -1,19 +1,22 @@
  {% extends 'base.html' %}
 {% load static %}
+
 {% comment %}
 {% load ratings %}
 {% load hitcount_tags %}
 {% endcomment %}
 
 {% block content %}
-<html>
+
+
 <script type="text/javascript" src="{% static '/static_dev/js/star-rating.min.js' %}"></script>
     <link rel="stylesheet" href="{% static '/static_dev/css/star-rating.css' %}">
+<script type="text/javascript" src="{% static '/static_dev/js/adaptive.js' %}"></script>
 
 
-  <div class="container">
-   <div class="row">
-    <div class="col-lg-12 topblog">
+<div class="container">
+  <div class="row">
+      <div class="col-xs-12 col-lg-9 topblog">
 
         {% autoescape off %}
     <h1>{{ post.title }}</h1>
@@ -32,24 +35,6 @@
 </script>
 
 
-             {% comment %}
-             <h2>Hitcount Info</h2>
-    <dl class="dl-horizontal">
-      <dt>Total Hits:</dt>
-      <dd>{{ hitcount.total_hits }}</dd>
-      <dt>The unique PK is:</dt>
-      <dd>{{ hitcount.pk }}</dd>
-      <dt>Hit counted?</dt>
-      <dd id="hit-counted">
-        <i id="hit-counted-value">{{ hitcount.hit_counted }}</i>
-      </dd>
-      <dt>Hit response:</dt>
-      <dd id="hit-response">{{ hitcount.hit_message }}</dd>
-      </dd>
-</dl>
-     {% ratings object %}
-     {% endcomment %}
-
 
         {% endautoescape %}
         <p>
@@ -57,11 +42,25 @@
     {% load disqus_tags %}
 
     {% disqus_show_comments %}
-            
-        </p>
 
+        </p>
     </div>
-   </div>
+    <div id="right" class="col-xs-12 col-lg-3">
+      <!-- Блок, который необходимо чтобы оставался на одном месте при прокручивании страницы -->
+      <div class="affix" id="myAffix" >
+
+        !!!ТЕСТ!!! Читайте также:
+               {% for post in object_list %}
+
+        <h4><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h4>
+
+    {% empty %}
+    <p>Нет постов</p>
+    {% endfor %}
+      </div>
+    </div>
   </div>
-    </html>
+</div>
+
+
 {% endblock %}
