@@ -9,7 +9,7 @@ html, body{
     font-family: 'Roboto', sans-serif;
     background: #FBF4FB;
     background-position: top;
-    padding: 30px 0 0 0;
+    padding: 40px 0 0 0;
 }
 
 .bgfordescription{
@@ -348,9 +348,7 @@ transform: rotate(1deg);}
     color: #69BCB9;
 }
 
-.top-bottom{
-    margin-top: 17%;
-}
+
 
 
 
