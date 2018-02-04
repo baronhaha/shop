@@ -159,7 +159,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "static", "media")
 ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 DISQUS_API_KEY = 'HiElGsTlaFfQUtWFh7yRku29SG0mfRRPiIFDGkZfOYtlaYGsVtImaH4uq2dhYUAq'
-DISQUS_WEBSITE_SHORTNAME = 'goldteam'
+DISQUS_WEBSITE_SHORTNAME = 'goldteamus'
 
 CKEDITOR_UPLOAD_PATH = "uploads/"
 
