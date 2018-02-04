@@ -67,6 +67,45 @@
                 </div>
         </div>
     </div>
+
+        <div class="col-lg-12">
+
+
+<section id="dg-container" class="dg-container">
+ <div class="dg-wrapper">
+      <h1><div class="basetitle">{{ product_image.product.name }}<a href="#"><img src="/static/static_dev/img/image2.jpg" alt="image01"></a></div></h1>
+
+
+ <a href="#"><img src="images/5.jpg" alt="image05"></a>
+ <a href="#"><img src="images/6.jpg" alt="image06"></a>
+ <a href="#"><img src="images/7.jpg" alt="image07"></a>
+ <a href="#"><img src="images/8.jpg" alt="image08"></a>
+ <a href="#"><img src="images/9.jpg" alt="image09"></a>
+ <a href="#"><img src="images/10.jpg" alt="image10"></a>
+ <a href="#"><img src="images/11.jpg" alt="image11"></a>
+ <a href="#"><img src="images/12.jpg" alt="image12"></a>
+ </div>
+ <nav>
+ <span class="dg-prev">&lt;</span>
+ <span class="dg-next">&gt;</span>
+ </nav>
+ </section>
+<script>
+    $('#dg-container').gallery();1
+
+Так как наша галерея использует плагин jQuery, по этому имеются следующие опции, котоые можете изменить на свое усмотрение:
+
+1current : 0,
+// индекс начального слайда
+
+autoplay : false,
+// автозапуск: включен/отключен
+
+interval : 2000
+// время между трансформациями
+</script>
+
+        </div>
     </div>
 {% endblock %}
 

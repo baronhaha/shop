@@ -3,10 +3,11 @@
     color: black;
     font-size: 20px;
     background-color: #fffcff;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-bottom: 20px;
     border: 1px solid;
     border-color: gainsboro;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15); /* Параметры тени */
 
 }
 .affix {
@@ -16,6 +17,7 @@
     border: 1px solid;
     border-radius: 5px;
     border-color: #d9edf7;
+    box-shadow: 0 0 10px rgba(68,234,242,0.13); /* Параметры тени */
 
 }
 @media (max-width: 1200px) {
