@@ -1,5 +1,5 @@
 from django.db import models
-
+from ckeditor_uploader.fields import RichTextUploadingField
 
 
 class Subscriber(models.Model):
@@ -14,3 +14,13 @@ class Subscriber(models.Model):
         verbose_name = 'Заказчик'
         verbose_name_plural = 'Мои заказчики'
 
+
+class About(models.Model):
+    title = models.CharField(max_length=68)  # заголовок поста
+    content = RichTextUploadingField()  # текст поста
+
+
+
+    class Meta:
+        verbose_name = 'О нас'
+        verbose_name_plural = 'О нас'

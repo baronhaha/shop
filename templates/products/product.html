@@ -33,11 +33,7 @@
                                 Описание
                             </a>
                         </li>
-                        <li role="presentation">
-                            <a href="#about" aria-controls="profile" role="tab" data-toggle="tab">
-                                Сроки
-                            </a>
-                        </li>
+
                         <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Вопросы/Ответы</a></li>
 
                       </ul>
@@ -55,9 +51,7 @@
 
 
                         </div>
-                        <div role="tabpanel" class="tab-pane" id="about">
-                            <h4>Сроки исполнения заказов индивидуальны и могут зависеть от многих параметров(общий объем работ, дизайн, контент, вид применяемых технологии и так далее). Пожалуйста, скачайте бриф на нашем сайте или заполните Техническое Задание в свободной форме и отправьте на home@goldteam.us</h4>
-                        </div>
+
                         <div role="tabpanel" class="tab-pane thumb-wrap" id="messages">...
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/YJVijEaytvA" frameborder="0" allowfullscreen></iframe>
 
@@ -68,44 +62,24 @@
         </div>
     </div>
 
-        <div class="col-lg-12">
+       {% comment %} <div class="col-lg-12">
+            <div id="contentContainer" class="trans3d">
+	<section id="carouselContainer" class="trans3d">
+		<figure id="item1" class="carouselItem trans3d"><div class="carouselItemInner trans3d">1</div></figure>
+		<figure id="item2" class="carouselItem trans3d"><div class="carouselItemInner trans3d">2</div></figure>
+		<figure id="item3" class="carouselItem trans3d"><div class="carouselItemInner trans3d">3</div></figure>
+		<figure id="item4" class="carouselItem trans3d"><div class="carouselItemInner trans3d">4</div></figure>
+		<figure id="item5" class="carouselItem trans3d"><div class="carouselItemInner trans3d">5</div></figure>
+		<figure id="item6" class="carouselItem trans3d"><div class="carouselItemInner trans3d">6</div></figure>
+		<figure id="item7" class="carouselItem trans3d"><div class="carouselItemInner trans3d">7</div></figure>
+		<figure id="item8" class="carouselItem trans3d"><div class="carouselItemInner trans3d">8</div></figure>
+
+	</section>
 
 
-<section id="dg-container" class="dg-container">
- <div class="dg-wrapper">
-      <h1><div class="basetitle">{{ product_image.product.name }}<a href="#"><img src="/static/static_dev/img/image2.jpg" alt="image01"></a></div></h1>
+	</div>
 
-
- <a href="#"><img src="images/5.jpg" alt="image05"></a>
- <a href="#"><img src="images/6.jpg" alt="image06"></a>
- <a href="#"><img src="images/7.jpg" alt="image07"></a>
- <a href="#"><img src="images/8.jpg" alt="image08"></a>
- <a href="#"><img src="images/9.jpg" alt="image09"></a>
- <a href="#"><img src="images/10.jpg" alt="image10"></a>
- <a href="#"><img src="images/11.jpg" alt="image11"></a>
- <a href="#"><img src="images/12.jpg" alt="image12"></a>
- </div>
- <nav>
- <span class="dg-prev">&lt;</span>
- <span class="dg-next">&gt;</span>
- </nav>
- </section>
-<script>
-    $('#dg-container').gallery();1
-
-Так как наша галерея использует плагин jQuery, по этому имеются следующие опции, котоые можете изменить на свое усмотрение:
-
-1current : 0,
-// индекс начального слайда
-
-autoplay : false,
-// автозапуск: включен/отключен
-
-interval : 2000
-// время между трансформациями
-</script>
-
-        </div>
+        </div>{% endcomment %}
     </div>
 {% endblock %}
 
