@@ -40,23 +40,25 @@
 
                       <!-- Tab panes -->
                       <div class="tab-content product-description-tabs">
-                          <div role="tabpanel" class="tab-pane active" id="description">
 
-                            {% autoescape off %}
+                            <div role="tabpanel" class="tab-pane active" id="description">
                                 <div class="bgfordescription">
-                                  <p><h4>{{ product.description }}</h4></p>
-                            {% endautoescape %}
+                                 {% autoescape off %}
+                                   <p><h4>{{ product.description }}</h4></p>
+                                 {% endautoescape %}
                                 </div>
-
-                          </div>
-
-                            {% autoescape off %}
-                           <p><h4>{{ product.answer }}</h4></p>
-                            {% endautoescape %}
-
-                            <div role="tabpanel" class="tab-pane thumb-wrap" id="messages">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/YJVijEaytvA" frameborder="0" allowfullscreen></iframe>
                             </div>
+
+                            <div role="tabpanel" class="tab-pane" id="messages">
+                                {% autoescape off %}
+                                   <p><h4>{{ product.answer }}</h4></p>
+                                {% endautoescape %}
+
+                                <div class="thumb-wrap">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YJVijEaytvA" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+
                       </div>
                 </div>
         </div>
