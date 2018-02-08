@@ -22,6 +22,7 @@ class Product(models.Model):
     category = models.ForeignKey(ProductCategory, blank=True, null=True, default=None)
     short_description = models.TextField(blank=True, null=True, default=None)
     description = RichTextUploadingField(blank=True, null=True, default=None)
+    answer = RichTextUploadingField(blank=True, null=True, default=None)
     is_active = models.BooleanField(default=True)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
