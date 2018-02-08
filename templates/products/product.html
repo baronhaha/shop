@@ -40,27 +40,28 @@
 
                       <!-- Tab panes -->
                       <div class="tab-content product-description-tabs">
-                        <div role="tabpanel" class="tab-pane active" id="description">
+                          <div role="tabpanel" class="tab-pane active" id="description">
+
                             {% autoescape off %}
+                                <div class="bgfordescription">
+                                  <p><h4>{{ product.description }}</h4></p>
+                            {% endautoescape %}
+                                </div>
 
+                          </div>
 
-    <div class="bgfordescription">
-    <p><h4>{{ product.description }}</h4></p>
-        {% endautoescape %}
-    </div>
+                            {% autoescape off %}
+                           <p><h4>{{ product.answer }}</h4></p>
+                            {% endautoescape %}
 
-
-                        </div>
-
-                        <div role="tabpanel" class="tab-pane thumb-wrap" id="messages">...
+                            <div role="tabpanel" class="tab-pane thumb-wrap" id="messages">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/YJVijEaytvA" frameborder="0" allowfullscreen></iframe>
-
-                       </div>
-
+                            </div>
                       </div>
                 </div>
         </div>
     </div>
+        </div>
 
        {% comment %} <div class="col-lg-12">
             <div id="contentContainer" class="trans3d">
@@ -75,9 +76,7 @@
 		<figure id="item8" class="carouselItem trans3d"><div class="carouselItemInner trans3d">8</div></figure>
 
 	</section>
-
-
-	</div>
+      </div>
 
         </div>{% endcomment %}
     </div>
