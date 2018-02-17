@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'ckeditor_uploader',
     'star_ratings',
     'hitcount',
-
+    'crispy_forms',
 
 
 
@@ -142,7 +142,7 @@ USE_TZ = True
 EMAIL_HOST = 'smtp.mail.ru'
 EMAIL_PORT = 2525
 EMAIL_HOST_USER = 'goldteamsmtp@mail.ru'
-EMAIL_HOST_PASSWORD = 'smtplalala9'
+EMAIL_HOST_PASSWORD = 'sslmail89'
 EMAIL_USE_TLS = True
 
 # settings.py

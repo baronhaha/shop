@@ -1,6 +1,8 @@
 from django.db import models
 from ckeditor_uploader.fields import RichTextUploadingField
 from django.utils import timezone
+from django import forms
+
 
 
 class ProductCategory(models.Model):
@@ -59,10 +61,17 @@ class Contact(models.Model):
         verbose_name_plural = "Обратная связь"
 
     name = models.CharField("Имя", max_length=30)
-    second_name = models.CharField("Фамилия", max_length=30)
+    phone = models.CharField("Телефон", max_length=30)
     email = models.EmailField(max_length=70)
     message = models.TextField("Сообщение", max_length=1000)
     data = models.DateTimeField("Дата отправки", default=timezone.now)
+    color = forms.TypedChoiceField(
+        label="Выбери цвет",
+        choices=((0, "Red"), (1, "Blue"), (2, "Green")),
+        coerce=lambda x: bool(int(x)),
+        widget=forms.RadioSelect,
+        initial='0',
+        required=True)
 
     def __str__(self):
         return self.name

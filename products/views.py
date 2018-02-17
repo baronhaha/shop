@@ -23,7 +23,7 @@ def product(request, product_id):
         form = ContactForm(request.POST)
         if form.is_valid():
             subject = form.cleaned_data['name']
-            second_name = form.cleaned_data['second_name']
+            phone = form.cleaned_data['phone']
             email = form.cleaned_data['email']
             message = form.cleaned_data['message']
             recipients = ['goldteamus@mail.tu']
