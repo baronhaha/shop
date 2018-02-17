@@ -2,6 +2,7 @@
 {% load static %}
 
 
+
 {% block content %}
     <div class="container" xmlns="http://www.w3.org/1999/html">
         <div class="row">
@@ -15,8 +16,8 @@
 
                     </div>
                 {% endfor %}
-            </div>
-            <div class="col-lg-8 indent">
+              </div>
+              <div class="col-lg-8 indent">
                 <h1 class="text-center name" >
                     {{ product.name }}
                 </h1>
@@ -54,16 +55,35 @@
                                    <p><h4>{{ product.answer }}</h4></p>
                                 {% endautoescape %}
 
-                                <div class="thumb-wrap">
+                                {% comment %}<div class="thumb-wrap">
                                     <iframe width="560" height="315" src="https://www.youtube.com/embed/YJVijEaytvA" frameborder="0" allowfullscreen></iframe>
-                                </div>
+                                </div>{% endcomment %}
+
+                                  <div class="col-lg-12">
+                                           <h1 class="title2">Не нашли ответ на свой вопрос? Спроси меня!<br>
+                                            </h1>
+
+                                         <form action="" method="post">
+
+                                               {{ form.as_p }}
+
+
+                                             <div class="form-group">
+                                              <button type="submit" class="btn btn-primary">Отправить</button>
+                                             </div>
+                                      {% csrf_token %}
+                                         </form>
+
+
+
+                                 </div>
                             </div>
 
                       </div>
                 </div>
-        </div>
+         </div>
+       </div>
     </div>
-        </div>
 
        {% comment %} <div class="col-lg-12">
             <div id="contentContainer" class="trans3d">

@@ -51,7 +51,11 @@ INSTALLED_APPS = [
     'hitcount',
 
 
+
+
+
 ]
+
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
@@ -134,6 +138,16 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+EMAIL_HOST = 'smtp.mail.ru'
+EMAIL_PORT = 2525
+EMAIL_HOST_USER = 'goldteamsmtp@mail.ru'
+EMAIL_HOST_PASSWORD = 'smtplalala9'
+EMAIL_USE_TLS = True
+
+# settings.py
+SERVER_EMAIL = EMAIL_HOST_USER
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 
 # Static files (CSS, JavaScript, Images)

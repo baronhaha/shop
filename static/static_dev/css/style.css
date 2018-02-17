@@ -113,6 +113,8 @@ transform: rotate(1deg);}
     padding: 4px;
     text-align: center;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Параметры тени */
+
 
     margin-bottom: 10px;
   #  animation-name: expandOpen;
@@ -176,6 +178,15 @@ transform: rotate(1deg);}
     font-weight: 100;
     line-height: 50px;
 }
+
+.title2{
+    text-align: center;
+    color: currentColor;
+    font-weight: 100;
+    font-size: 26px;
+    line-height: 40px;
+}
+
 .basetitle{
     margin-top: 0px;
     font-size: 20px;

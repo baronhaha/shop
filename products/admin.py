@@ -35,3 +35,9 @@ class ProductImageAdmin (admin.ModelAdmin):
 
 
 admin.site.register(ProductImage, ProductImageAdmin)
+
+class ContactAdmin(admin.ModelAdmin):
+	#list_filter = ('nick', 'user')
+	list_display = ('name', 'email', 'data')
+
+admin.site.register(Contact, ContactAdmin)

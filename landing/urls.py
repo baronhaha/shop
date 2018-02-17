@@ -7,4 +7,5 @@ from landing import views
 urlpatterns = [
     url(r'^$', views.home, name='home'),
     url(r'^about/$', views.about, name='about'),
+
 ]

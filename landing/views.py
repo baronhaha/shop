@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .forms import SubscriberForm
+from .forms import *
 from landing.models import *
 from products.models import *
 
@@ -15,3 +15,19 @@ def about(request):
     model = About.objects.get()
 
     return render(request, 'about.html', locals())
+
+def landing(request):
+    name = "Goldteam"
+    current_day = "10.02.2018"
+    form = SubscriberForm(request.POST or None)
+
+    if request.method == "POST" and form.is_valid():
+        print (request.POST)
+        print (form.cleaned_data)
+        data  = form.cleaned_data
+        print (data["name"])
+
+        new_form = form.save()
+
+    return render(request, 'products/product.html', locals())
+

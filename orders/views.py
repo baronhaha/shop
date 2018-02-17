@@ -101,6 +101,7 @@ def chat(request):
 def order(request):
     model = Orderpost.objects.get()
 
+
     return render(request, 'orders/order.html', locals())
 
 
