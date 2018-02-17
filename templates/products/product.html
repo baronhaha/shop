@@ -66,14 +66,11 @@
                                             </h1>
 
                                          <form action="" method="post">{% csrf_token %}
-
+                                             <div class="form-group">
                                              {% crispy form %}
 
-                                                <div class="" style="padding-top: 10px">
-                                                  <button type="submit" class="btn btn-primary">Отправить</button>
-                                                </div>
-
-
+                                              <button type="submit" class="btn btn-primary">Отправить</button>
+                                             </div>
 
                                          </form>
 
