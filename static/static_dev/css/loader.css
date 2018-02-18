@@ -9,13 +9,13 @@
 }
 
 #page-preloader .spinner {
-    width: 58px;
-    height: 58px;
+    background: url('/static/static_dev/img/8.gif') no-repeat 50% 50%;
+    width: 60px;
+    height: 60px;
     position: absolute;
     left: 50%;
     right: 50%;
     top: 40%;
-    background: url('/static/static_dev/img/8.gif') no-repeat 50% 50%;
     margin: -16px 0 0 -16px;
 }
 
