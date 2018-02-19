@@ -1,19 +1,18 @@
  {% load static %}
-<html>
-<body>
 
-<!-- Custom styles -->
-
-
+<html><!-- Custom styles -->
 <link rel="stylesheet" type="text/css" href="{% static "static_dev/css/navbar.css" %}">
+<link rel="stylesheet" type="text/css" href="{% static "/static_dev/css/icons.css" %}">
 
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC|New+Rocker" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Akronim" rel="stylesheet">
 
+<body>
 
 
-
-
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
 
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 
@@ -34,7 +33,7 @@
     </div>
 
     <!-- Группируем ссылки, формы, выпадающее меню и прочие элементы -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="/">Главная</a></li>
         <li><a href="/chat/">Videochat</a></li>
@@ -49,7 +48,21 @@
 
         </li>
         </ul>
-    </div><!-- /.navbar-collapse -->
+          <div class="">
+
+             <div class="social instagram">
+               <a href="https://www.instagram.com/goldteamblog/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+             </div>
+                <div class="social vk">
+                <a href="https://vk.com/goldteamus" target="_blank"><i class="fa fa-vk fa-2x"></i></a>
+               </div>
+
+          </div>
+      </div><!-- /.navbar-collapse -->
+
+        </div>
+        </div>
+    </div>
 
         </div>
         </div>
@@ -64,12 +77,6 @@
      <!-- JavaScript -->
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-
-
-
-
-
-
 
 </body>
 </html>
