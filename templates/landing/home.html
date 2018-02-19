@@ -3,13 +3,37 @@
 
  {% block content %}
      <div id="page-preloader"><span class="spinner"></span></div>
+
+     <style>
+
+     #page-preloader .spinner {
+    background: url('/static/static_dev/img/8.gif') no-repeat 50% 50%;
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    top: 41%;
+    margin: -31px 0 0 -31px;
+}
+     #page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #f7f3f7;
+    z-index: 100500;
+}
+     </style>
+
      <script>
      $(window).on('load', function () {
     var $preloader = $('#page-preloader'),
         $spinner   = $preloader.find('.spinner');
     $spinner.fadeOut();
     $preloader.delay(350).fadeOut(1600);
-});
+                                      });
      </script>
 
 
@@ -24,10 +48,6 @@
                </div>
            </div>
 
-
-
-
-
            <div class="row">
                <div class="col-lg-12">
                   <h1 class="title">
@@ -41,12 +61,6 @@
            </div>
        </div>
      </div>
-
-
-
-
-
-
 
 
      <div class="section section2 pr-container">{% csrf_token %}
