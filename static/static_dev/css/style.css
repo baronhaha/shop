@@ -12,15 +12,7 @@ html, body{
     padding: 40px 0 0 0;
 }
 
-.bgfordescription{
-    background-color: white;
-    border: 1px solid;
-    border-radius: 8px;
-    adding-block-start: 10px;
-    padding-right: 7px;
-    padding-left: 7px;
-    padding-block-end: 8px;
-}
+
 .delete-item{
     color: #761c19;
 }
@@ -91,6 +83,16 @@ transform: rotate(1deg);}
 .name{
     font-family: 'Amatic SC', cursive;
     text-shadow: 4px 4px 11px #002b36;
+}
+
+.bgfordescription{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    adding-block-start: 8px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-block-end: 8px;
 }
 
 .img-responsive {
@@ -206,7 +208,7 @@ transform: rotate(1deg);}
 }
 
 .product-description-tabs{
-    padding: 10px;
+
     color: #66512c;
 }
 
@@ -215,6 +217,7 @@ transform: rotate(1deg);}
 }
 
 .indent{
+    padding: 5px;
 
 }
 
@@ -222,10 +225,15 @@ transform: rotate(1deg);}
     margin-top: 5%;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
     flex-direction: column;
 }
 
+.contactform{
+    padding: 0;
+}
 
 
 .btn-buy {
