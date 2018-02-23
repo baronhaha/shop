@@ -4,7 +4,7 @@ from products.models import Product
 from django.db.models.signals import post_save
 from django.contrib.auth.models import User
 from utils.main import disable_for_loaddata
-
+from django.utils import timezone
 from ckeditor_uploader.fields import RichTextUploadingField
 
 
@@ -134,6 +134,23 @@ class ProductInBasket(models.Model):
 
         super(ProductInBasket, self).save(*args, **kwargs)
 
+
+# Модель обратной связи
+class Ordercontact(models.Model):
+    class Meta():
+        db_table = 'contact'
+        verbose_name = "Обратная связь"
+        verbose_name_plural = "Обратная связь"
+
+    name = models.CharField("Имя", max_length=30)
+    phone = models.CharField("Телефон", max_length=30)
+    email = models.EmailField(max_length=70)
+    message = models.TextField("Сообщение", max_length=1000)
+    data = models.DateTimeField("Дата отправки", default=timezone.now)
+
+
+    def __str__(self):
+        return self.name
 
 
 
