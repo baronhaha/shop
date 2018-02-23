@@ -9,7 +9,7 @@ html, body{
     font-family: 'Roboto', sans-serif;
     background: #FBF4FB;
     background-position: top;
-    padding: 40px 0 0 0;
+    padding: 30px 0 0 0;
 }
 
 
@@ -83,12 +83,16 @@ transform: rotate(1deg);}
 .name{
     font-family: 'Amatic SC', cursive;
     text-shadow: 4px 4px 11px #002b36;
+    padding-bottom: 10px;
 }
 
 .bgfordescription{
     background-color: white;
     border: 1px solid;
+    border-color: #d9edf7;
+    box-shadow: 0 0 6px rgba(0,0,0.1,0.1); /* Параметры тени */
     border-radius: 5px;
+    border-top-left-radius: 0;
     adding-block-start: 8px;
     padding-right: 5px;
     padding-left: 5px;
@@ -217,7 +221,9 @@ transform: rotate(1deg);}
 }
 
 .indent{
-    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0;
 
 }
 .nopadding{
@@ -226,10 +232,9 @@ transform: rotate(1deg);}
 }
 
 .product-image-item{
-    margin-top: 5%;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-bottom: 7px;
     padding-right: 5px;
     padding-left: 5px;
     flex-direction: column;
