@@ -220,6 +220,10 @@ transform: rotate(1deg);}
     padding: 5px;
 
 }
+.nopadding{
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .product-image-item{
     margin-top: 5%;

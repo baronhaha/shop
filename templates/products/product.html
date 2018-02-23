@@ -8,35 +8,36 @@
 {% block content %}
     <div class="container" xmlns="http://www.w3.org/1999/html">
         <div class="row">
-           <div class="col-lg-12">
-            <div class="col-lg-4 product-image-item">
+           <div class="col-lg-12 nopadding">
+
+                          <div class="col-lg-4 product-image-item">
                 {% for image_item in product.productimage_set.all %}
                     <div class="product-image-item">
                         <img src="{{ image_item.image.url }}" class="img-responsive2 center-block img-thumbnail">
                     </div>
-                    <div>
-
-
-                    </div>
                 {% endfor %}
-              </div>
-              <div class="col-lg-8 indent">
-                <h1 class="text-center name" >
-                    {{ product.name }}
-                </h1>
-                <div class="color">
-                    <p>
-                        Цена: от {{ product.price }}
-                    </p>
-                </div>
-                <div>
-                      <!-- Nav tabs -->
-                      <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active">
-                            <a href="#description" aria-controls="home" role="tab" data-toggle="tab">
-                                Описание
-                            </a>
-                        </li>
+                          </div>
+
+
+
+                              <div class="col-lg-8 indent">
+                                  <h1 class="text-center name" >
+                                     {{ product.name }}
+                                  </h1>
+                                  <div class="color">
+                                     <p>
+                                    Цена: от {{ product.price }}
+                                  </p>
+                                  </div>
+
+                              <div>
+                                  <!-- Nav tabs -->
+                                 <ul class="nav nav-tabs" role="tablist">
+                                  <li role="presentation" class="active">
+                                <a href="#description" aria-controls="home" role="tab" data-toggle="tab">
+                                    Описание
+                               </a>
+                                 </li>
 
                         <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Вопросы/Ответы</a></li>
 
