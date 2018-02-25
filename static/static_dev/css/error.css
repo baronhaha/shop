@@ -13,3 +13,28 @@ html, body{
     top: 40%;
     background-color: #56416e;
 }
+.wrapper{
+    min-height: 100%;
+}
+
+.wrapper-content{
+    overflow: auto;
+    padding-bottom: 80px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+
+
+.footer{
+    position: static;
+    margin-top: -80px;
+    height: 80px;
+    clear: both;
+    background: linear-gradient(to top, #B1A7D3, #FBF4FB);
+    font-family: 'Tillana', cursive;
+    color: black;
+
+}
