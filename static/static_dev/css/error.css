@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
-
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 html, body{
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: Lobster;
+    font-size: x-large;
     background: url("/static/static_dev/img/404.gif");
+    margin-top: 20%;
     color: white;
-    right: 0;
-    left: 0;
+    text-align: center;
 }
 
 .wrapper{
