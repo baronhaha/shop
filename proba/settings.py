@@ -27,7 +27,7 @@ SECRET_KEY = 'pv4yw9)iqp0iq6!)n!=)36!dv@v%q6wty4x(hzw-y%5bf&lw)z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.07', 'localhost', '104.131.94.11', '.goldteam.us', 'www.goldteam.us']
 
 
 # Application definition
