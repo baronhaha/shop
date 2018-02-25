@@ -4,16 +4,14 @@
 
 html, body{
     height: 100%;
-
     background: url("/static/static_dev/img/404.gif");
-    margin-top: 20%;
-
-    text-align: center;
+    background-position: top;
 }
 .error{
     font-family: 'Lobster', cursive;
     font-size: 24px;
     color: white;
+    text-align: center;
 }
 
 .wrapper{
@@ -39,5 +37,6 @@ html, body{
     background: linear-gradient(to top, #B1A7D3, #FBF4FB);
     font-family: 'Tillana', cursive;
     color: black;
+    text-align: center;
 
 }

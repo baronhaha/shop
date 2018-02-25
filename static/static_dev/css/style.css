@@ -54,6 +54,7 @@ transform: rotate(1deg);}
     background: linear-gradient(to top, #B1A7D3, #FBF4FB);
     font-family: 'Tillana', cursive;
     color: black;
+    text-align: center;
 
 }
 .thumb-wrap {
