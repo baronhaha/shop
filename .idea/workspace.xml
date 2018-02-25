@@ -1256,8 +1256,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/uploads/2018/01/09/cat.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/uploads/2018/01/09/pikachu_evolution.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/uploads/2018/01/09/pikachu_evolution_U8geDh8.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proba/settings.py" afterPath="$PROJECT_DIR$/proba/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blog/post_detail.html" afterPath="$PROJECT_DIR$/templates/blog/post_detail.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1340,7 +1340,7 @@
         <entry file="file://$PROJECT_DIR$/proba/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -1992,7 +1992,7 @@
         <state relative-caret-position="1955">
           <caret line="123" column="49" lean-forward="false" selection-start-line="123" selection-start-column="49" selection-end-line="123" selection-end-column="49" />
           <folding>
-            <element signature="e#0#72#0" expanded="true" />
+            <element signature="e#0#72#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2104,7 +2104,7 @@
     <entry file="file://$PROJECT_DIR$/proba/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding />
         </state>
       </provider>
