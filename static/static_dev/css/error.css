@@ -4,12 +4,16 @@
 
 html, body{
     height: 100%;
-    font-family: 'Lobster', cursive;
-    font-size: 24px;
+
     background: url("/static/static_dev/img/404.gif");
     margin-top: 20%;
-    color: white;
+
     text-align: center;
+}
+.error{
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    color: white;
 }
 
 .wrapper{
