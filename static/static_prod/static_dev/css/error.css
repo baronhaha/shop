@@ -1,0 +1,7 @@
+.error{
+    background-image: url("/static/static_dev/img/404.gif");
+    right: 0;
+    left: 0;
+    top: 40%;
+    background-color: #B1A7D3;
+}
