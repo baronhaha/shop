@@ -1256,10 +1256,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/uploads/2018/01/09/cat.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/uploads/2018/01/09/pikachu_evolution.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/static/static_prod/uploads/2018/01/09/pikachu_evolution_U8geDh8.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proba/settings.py" afterPath="$PROJECT_DIR$/proba/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static_dev/css/style.css" afterPath="$PROJECT_DIR$/static/static_dev/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/products/product.html" afterPath="$PROJECT_DIR$/templates/products/product.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blog/post_detail.html" afterPath="$PROJECT_DIR$/templates/blog/post_detail.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1276,21 +1274,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="order.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/orders/order.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="44" column="14" lean-forward="false" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="product_item.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/landing/product_item.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="93">
-              <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="64" />
+              <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -1326,21 +1314,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proba/settings.py">
+      <file leaf-file-name="post_detail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/blog/post_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+            <state relative-caret-position="246">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/proba/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/static_dev/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="114" column="22" lean-forward="true" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+              <caret line="114" column="22" lean-forward="false" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -1368,18 +1378,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orders/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2278">
-              <caret line="140" column="20" lean-forward="false" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
-              <folding>
-                <element signature="e#15#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -1387,8 +1385,8 @@
       <list>
         <option value="Python Script" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -1409,7 +1407,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/static/static_dev/js/star-rating.min.js" />
         <option value="$PROJECT_DIR$/ferro/Lib/site-packages/star_ratings/templates/admin/includes/_rating_stars.html" />
         <option value="$PROJECT_DIR$/ferro/Lib/site-packages/star_ratings/templates/star_ratings/widget_base.html" />
         <option value="$PROJECT_DIR$/templates/footer.html" />
@@ -1428,7 +1425,6 @@
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/static/static_dev/js/carousel.js" />
         <option value="$PROJECT_DIR$/static/static_dev/css/carousel.css" />
-        <option value="$PROJECT_DIR$/templates/blog/post_detail.html" />
         <option value="$PROJECT_DIR$/about/views.py" />
         <option value="$PROJECT_DIR$/about/urls.py" />
         <option value="$PROJECT_DIR$/templates/about.html" />
@@ -1457,9 +1453,11 @@
         <option value="$PROJECT_DIR$/orders/forms.py" />
         <option value="$PROJECT_DIR$/orders/models.py" />
         <option value="$PROJECT_DIR$/templates/orders/order.html" />
-        <option value="$PROJECT_DIR$/proba/settings.py" />
         <option value="$PROJECT_DIR$/templates/products/product.html" />
         <option value="$PROJECT_DIR$/static/static_dev/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/blog/post_detail.html" />
+        <option value="$PROJECT_DIR$/templates/404.html" />
+        <option value="$PROJECT_DIR$/proba/settings.py" />
       </list>
     </option>
   </component>
@@ -1502,17 +1500,18 @@
             <path>
               <item name="proba" type="b2602c69:ProjectViewProjectNode" />
               <item name="proba" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proba" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="proba" type="b2602c69:ProjectViewProjectNode" />
               <item name="proba" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proba" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="proba" type="b2602c69:ProjectViewProjectNode" />
@@ -1744,20 +1743,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -2027,7 +2012,7 @@
         <state relative-caret-position="2278">
           <caret line="140" column="20" lean-forward="false" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
           <folding>
-            <element signature="e#15#43#0" expanded="true" />
+            <element signature="e#15#43#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2051,7 +2036,7 @@
     <entry file="file://$PROJECT_DIR$/templates/landing/product_item.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
-          <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="64" />
+          <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="64" />
           <folding />
         </state>
       </provider>
@@ -2082,10 +2067,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proba/settings.py">
+    <entry file="file://$PROJECT_DIR$/static/static_dev/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state relative-caret-position="280">
+          <caret line="114" column="22" lean-forward="false" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -2098,10 +2083,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/static_dev/css/style.css">
+    <entry file="file://$PROJECT_DIR$/templates/blog/post_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="114" column="22" lean-forward="true" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+        <state relative-caret-position="246">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proba/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding />
         </state>
       </provider>

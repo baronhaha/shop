@@ -24,6 +24,8 @@
 
     <p>{{ post.content }}</p>
 
+
+
             <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112083027-1"></script>
 <script>
@@ -34,9 +36,10 @@
   gtag('config', 'UA-112083027-1');
 </script>
 
-
-
         {% endautoescape %}
+
+
+
         <p>
 
     {% load disqus_tags %}
@@ -57,6 +60,7 @@
     {% empty %}
     <p>Нет постов</p>
     {% endfor %}
+
       </div>
     </div>
   </div>
