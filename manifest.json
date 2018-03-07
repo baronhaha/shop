@@ -1,5 +1,1 @@
-{
-  "name": "goldteam.us Push test",  // Название сайта
-  "display": "standalone",        // Указываем, где показывать уведомления
-  "gcm_sender_id": "1047439012010" // Тот самый идентификатор приложения в Google Cloud Platform
-}
+{"name": "GoldTeam Studio","short_name": "GoldTeam Studio","start_url": "/","display": "standalone","gcm_sender_id": "800090532661"}
