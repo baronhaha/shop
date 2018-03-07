@@ -26,7 +26,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'pv4yw9)iqp0iq6!)n!=)36!dv@v%q6wty4x(hzw-y%5bf&lw)z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
+
 ALLOWED_HOSTS = ['*']
 #
 
@@ -50,8 +51,6 @@ INSTALLED_APPS = [
     'star_ratings',
     'hitcount',
     'crispy_forms',
-
-
 
 
 ]
