@@ -11,7 +11,7 @@
 
  .navbar-brand{
      font-family: 'Akronim', cursive;
-     font-size: xx-large;
+     font-size: x-large;
      color: white;
  }
  .navbar-nav{
@@ -77,19 +77,23 @@
     /* CSS стили для мобильных устройств */
     /* Цвет рамки у кнопки, которая открывает меню */
     .navbar-default .navbar-toggle {
-        border-color: #B9A5E0;
-        max-width: 44px;
+        border-color: #440D59;
+        max-width: 52px;
+        max-height: 52px;
 
     }
     /* Цвет фона кнопки (которая открывает меню) при поднесении к ней курсора мышки или при нахождении её в фокусе */
     .navbar-default .navbar-toggle:hover,
     .navbar-default .navbar-toggle:focus {
         background-color: #B1A7D3;
-        max-width: 44px;
+        max-width: 52px;
+        max-height: 52px;
     }
     /* Цвет полосочек в кнопочке, которая открывает меню */
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #ecf0f1;
+        text-align: center;
+        max-width: 90%;
     }
     /* Цвет пунктов меню в раскрывающихся списках */
     @media (max-width: 767px) {
@@ -112,20 +116,3 @@
 
  }
 
- .basket-container{
-     position: relative;
-
-     width: 350px;
-     padding: 15px 5px;
-
- }
-
- .basket-items{
-     position: absolute;
-     top: 50px;
-     width: 100%;
-     background-color: lightsteelblue;
-     z-index: 10;
-     padding: 5px;
-
- }

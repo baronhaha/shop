@@ -12,6 +12,10 @@ class Post(models.Model):
     content = RichTextUploadingField() # текст поста
     short_content = RichTextUploadingField()
 
+    class Meta:
+        verbose_name = 'Пост'
+        verbose_name_plural = 'Посты'
+
     def __unicode__(self):
         return self.title
 
