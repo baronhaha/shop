@@ -11,9 +11,9 @@ urlpatterns = [
     url(r'^about/$', views.about, name='about'),
 
     url(r'^OneSignalSDKWorker.js', (TemplateView.as_view(
-        template_name="../templates/OOneSignalSDKWorker.js",
+        template_name="../templates/OneSignalSDKWorker.js",
         content_type='application/javascript',
-    )), name=OneSignalSDKWorker.js'),
+    )), name='OneSignalSDKWorker.js'),
 
 url(r'^OneSignalSDKUpdaterWorker.js', (TemplateView.as_view(
         template_name="../templates/OneSignalSDKUpdaterWorker.js",
