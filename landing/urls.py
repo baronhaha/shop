@@ -11,17 +11,17 @@ urlpatterns = [
     url(r'^about/$', views.about, name='about'),
 
     url(r'^serviceworker.js', (TemplateView.as_view(
-        template_name="serviceworker.js",
+        template_name="../templates/serviceworker.js",
         content_type='application/javascript',
     )), name='serviceworker.js'),
 
 url(r'^serviceworker-update.js', (TemplateView.as_view(
-        template_name="serviceworker-update.js",
+        template_name="../templates/serviceworker-update.js",
         content_type='application/javascript',
     )), name='serviceworker-update.js'),
 
 url(r'^manifest.json', (TemplateView.as_view(
-        template_name="manifest.json",
+        template_name="../templates/manifest.json",
         content_type='application/javascript',
     )), name='manifest.json'),
 
