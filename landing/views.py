@@ -31,3 +31,15 @@ def landing(request):
 
     return render(request, 'products/product.html', locals())
 
+def sw(request):
+    model = About.objects.get()
+
+    return render(request, '../templates/serviceworker.js', locals())
+def swupdate(request):
+    model = About.objects.get()
+
+    return render(request, '../templates/serviceworker-update.js', locals())
+def manif(request):
+    model = About.objects.get()
+
+    return render(request, '../templates/manifest.json', locals())
