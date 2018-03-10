@@ -1,2 +1,4 @@
-{"name": "GoldTeam Studio","short_name": "GoldTeam Studio","start_url": "/","display": "standalone","gcm_sender_id": "800090532661"}
-
+{
+  "gcm_sender_id": "482941778795",
+  "gcm_sender_id_comment": "Do not change the GCM Sender ID"
+}

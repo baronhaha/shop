@@ -10,15 +10,15 @@ urlpatterns = [
     url(r'^$', views.home, name='home'),
     url(r'^about/$', views.about, name='about'),
 
-    url(r'^serviceworker.js', (TemplateView.as_view(
-        template_name="../templates/serviceworker.js",
+    url(r'^OneSignalSDKWorker.js', (TemplateView.as_view(
+        template_name="../templates/OOneSignalSDKWorker.js",
         content_type='application/javascript',
-    )), name='serviceworker.js'),
+    )), name=OneSignalSDKWorker.js'),
 
-url(r'^serviceworker-update.js', (TemplateView.as_view(
-        template_name="../templates/serviceworker-update.js",
+url(r'^OneSignalSDKUpdaterWorker.js', (TemplateView.as_view(
+        template_name="../templates/OneSignalSDKUpdaterWorker.js",
         content_type='application/javascript',
-    )), name='serviceworker-update.js'),
+    )), name='OneSignalSDKUpdaterWorker.js'),
 
 url(r'^manifest.json', (TemplateView.as_view(
         template_name="../templates/manifest.json",

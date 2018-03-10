@@ -52,6 +52,16 @@
 
 
     <link rel="manifest" href="/templates/manifest.json">
+
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "dc14f7f2-ca90-4b4b-a742-248ca5c63128",
+    });
+  });
+</script>
     
 </head>
 
@@ -91,6 +101,5 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
-<script>!function(e,t,d,s,a,n,c){e[a]={},e[a].date=(new Date).getTime(),n=t.createElement(d),c=t.getElementsByTagName(d)[0],n.type="text/javascript",n.async=!0,n.src=s,c.parentNode.insertBefore(n,c)}(window,document,"script","https://goldteamus.push.world/https.embed.js","pw"),pw.websiteId="40bacb08d0a67930a4f1433a3805c81c0a15b673320bf9581c34b84ac378ded8";</script>
 </body>
 </html>
