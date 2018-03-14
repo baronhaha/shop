@@ -12,12 +12,15 @@
          <div class="col-lg-12 topblog posttitle">
     {% for post in object_list %}
 
-{% autoescape off %}
 
+    {% autoescape off %}
 
-        <h3><a href="{{ post.get_absolute_url }}">{{ post.title }}{{ post.short_content }}</a></h3>
+<div class="bgfordescription2">
+<h3><a href="{{ post.get_absolute_url }}">{{ post.title }}{{ post.short_content }}</a></h3>
         <h4></h4>
-        <h6><p>{{ post.datetime }}</p></h6>
+        <h6><p>{{ post.datetime }}</p></h6><h6>Рубрика:<p>{{ post.category}}</p></h6>
+</div>
+
 
  {% endautoescape %}
 
