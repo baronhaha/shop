@@ -90,7 +90,7 @@ transform: rotate(1deg);}
     background-color: white;
     border: 1px solid;
     border-color: #d9edf7;
-    box-shadow: 0 0 3px rgba(0,0,0.1,0.1); /* Параметры тени */
+    box-shadow: 0 0 2px rgba(0,0,0.1,0.1); /* Параметры тени */
     border-radius: 5px;
     border-top-left-radius: 0;
 
@@ -102,7 +102,7 @@ transform: rotate(1deg);}
     background-color: ghostwhite;
     border: 1px solid;
     border-color: #d9edf7;
-    box-shadow: 0 0 3px rgba(0,0,0.1,0.3); /* Параметры тени */
+    box-shadow: 0 0 1px rgba(0,0,0.1,0.2); /* Параметры тени */
     border-radius: 3px;
 
     border-bottom-right-radius: 30px;
@@ -254,8 +254,15 @@ transform: rotate(1deg);}
 }
 .titlealign{
     text-align: center;
+    text-decoration: none;
 }
-
+.titlealign:hover{
+    color: #002b36;
+    font-stretch: condensed;
+    background-color: #f7f3f7;
+    opacity: 30%;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
 .indent{
     padding-left: 5px;
     padding-right: 5px;
@@ -266,6 +273,7 @@ transform: rotate(1deg);}
     padding-left: 0;
     padding-right: 0;
 }
+
 
 .product-image-item{
     display: flex;
@@ -574,6 +582,7 @@ transform: rotate(1deg);}
     transform: rotateY(-40deg) rotateX(-43deg);
   }
 }
+
 
 
 
