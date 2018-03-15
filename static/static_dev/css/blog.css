@@ -7,12 +7,12 @@
     margin-bottom: 20px;
     border: 1px solid;
     border-color: gainsboro;
-    box-shadow: 0 0 8px rgba(0,0,0,0.15); /* Параметры тени */
+    box-shadow: 0 0 6px rgba(0,0,0,0.15); /* Параметры тени */
 
 }
 .affix {
     color: black;
-    padding: 7px 7px 7px 7px;
+    padding: 4px 4px 4px 4px;
     background-color: #fffcff;
     border: 1px solid;
     border-radius: 5px;
@@ -27,6 +27,8 @@
 }
 .posttitle{
     color: #56416e;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 
