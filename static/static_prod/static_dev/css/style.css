@@ -104,7 +104,7 @@ transform: rotate(1deg);}
     border-color: #d9edf7;
     box-shadow: 0 0 3px rgba(0,0,0.1,0.3); /* Параметры тени */
     border-radius: 3px;
-    border-top-left-radius: 0;
+
     border-bottom-right-radius: 30px;
     border-top-left-radius: 10px;
     padding-right: 2px;
@@ -252,7 +252,9 @@ transform: rotate(1deg);}
 .color{
     color: #56416e;
 }
-
+.titlealign{
+    text-align: center;
+}
 .indent{
     padding-left: 5px;
     padding-right: 5px;
