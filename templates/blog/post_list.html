@@ -15,18 +15,20 @@
 
     {% autoescape off %}
 
-<div class="bgfordescription2">
-
-<div class="titlealign">
-   <h4><a href="{{ post.get_absolute_url }}">{{ post.title }}
-       <h6><p>{{ post.datetime }} Рубрика: {{ post.category}}</h6>
-    <hr width="100%" color="#dddddd" />
-</h4>
-    {{ post.short_content }}</a>
-</div>
 
 
-</div>
+
+   <a href="{{ post.get_absolute_url }}">
+       <div class="titlealign bgfordescription2">
+          <h4>{{ post.title }}</h4><h6><p>{{ post.datetime }} Рубрика: {{ post.category}}</h6>
+          <hr width="100%"/><h5>{{ post.short_content }}</h5>
+       </div>
+
+    </a>
+
+
+
+
 
 
  {% endautoescape %}
