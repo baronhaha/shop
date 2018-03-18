@@ -32,5 +32,18 @@
     padding-right: 7px;
     padding-top: 0;
 }
+.hrefblog:hover{
+
+text-decoration:none !important;
+}
+.hrefblog:visited{
+    color: #8F8F8F /* Цвет посещенных ссылок */
+}
+
+.hrefblog:active{
+
+    text-decoration:none !important;
+}
+
 
 
