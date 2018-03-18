@@ -76,9 +76,10 @@ transform: rotate(1deg);}
     width: auto;
 }
 .pricebottom{
+    color: #56416e;
     position: absolute;
     bottom: 5px;
-    text-shadow: 2px 2px 5px #8C7BB2;
+    text-shadow: 3px 3px 6px #8C7BB2;
 }
 .name{
     font-family: 'Amatic SC', cursive;
@@ -136,6 +137,7 @@ transform: rotate(1deg);}
   display: inline-block;
   height: 100%;
   width: auto;
+
 }
 
 .img-responsive2 {
@@ -143,6 +145,23 @@ transform: rotate(1deg);}
   width: 100%;
   height: auto;
 }
+.hrefmain:hover{
+
+text-decoration:none !important;
+}
+.hrefmain:visited{
+    color: #3B666B; /* Цвет посещенных ссылок */
+}
+.hrefmain{
+    color: #0e76a8; /* Цвет ссылок */
+}
+.hrefmain:active{
+    color: #2F33AB;
+    text-decoration:none !important;
+}
+
+
+
 .product-item{
     overflow: hidden;
     height: 300px;
@@ -153,7 +172,8 @@ transform: rotate(1deg);}
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Параметры тени */
-
+    background: linear-gradient(to bottom, #FBF4FB 55%, rgba(81, 76, 116, 0.15), rgba(255, 255, 255, 1));
+   /* background: linear-gradient(to bottom, #FBF4FB, rgba(81, 76, 116, 0.6), );*/
 
     margin-bottom: 10px;
   #  animation-name: expandOpen;
@@ -227,7 +247,8 @@ transform: rotate(1deg);}
 }
 
 .basetitle{
-    margin-top: 0px;
+    margin-top: 5%;
+
     font-size: 20px;
 
 }

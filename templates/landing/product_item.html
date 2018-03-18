@@ -5,12 +5,15 @@
 
 
 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+    <a class="hrefmain" href="{% url 'product' product_image.product.id %}">
  <div class="product-item bw">
      <div class="imgbox">
-         <a href="{% url 'product' product_image.product.id %}">
+
              <img src="{{ product_image.image.url }}" class="img-responsive img-rounded center-block">
-        </a>
+
      </div>
+
+
 
        {% if product_image.product.discount %}
         <div class="discount-container">
@@ -18,7 +21,7 @@
         </div>
       {% endif %}
 
-      <h1><div class="basetitle">{{ product_image.product.name }}</div></h1>
+      <div class="basetitle">{{ product_image.product.name }}</div>
       <p>
         {{ product_image.product.short_description }}
       </p>
@@ -27,4 +30,7 @@
      </div>
 
  </div>
+
+
+     </a>
 </div>
