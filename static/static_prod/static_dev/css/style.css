@@ -36,7 +36,7 @@ transform: rotate(1deg);}
 
 .wrapper-content{
     overflow: auto;
-    padding-bottom: 80px;
+    padding-bottom: 135px;
 }
 
 .navbar {
@@ -47,13 +47,14 @@ transform: rotate(1deg);}
 
 .footer{
     position: static;
-    margin-top: -80px;
-    height: 80px;
+    margin-top: -135px;
+    height: 135px;
     clear: both;
     background: linear-gradient(to top, #B1A7D3, #FBF4FB);
     font-family: 'Tillana', cursive;
     color: black;
     text-align: center;
+    padding: 5px;
 
 }
 .thumb-wrap {
