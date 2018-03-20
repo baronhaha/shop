@@ -1,17 +1,17 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 .social a{
     text-align:center;
-    width:40px;
-    height:40px;
-    float:left;
+    width:44px;
+    height:44px;
+    float:right;
         background: rgba(255,245,215,0);
 
     /*border:1px solid #B1A7D3;*/
    /* box-shadow:0 2px 4px rgba(0,0,0,0.3), inset 0 0 50px rgba(0,0,0,0.2);*/
     border-radius:5px;
-    margin-top: 4px;
-    margin-right: 4px;
-    padding-top: 5px;
+    margin-top: 0;
+    margin-left: 6px;
+    padding-top: 0;
     color: white;
     transition:0.6s;
 
