@@ -50,6 +50,13 @@ transform: rotate(1deg);}
     overflow: auto;
     padding-bottom: 155px;
 }
+.aboutfon{
+    background-color: #fffcff;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #d9edf7;
+    box-shadow: 0 0 6px rgba(68,234,242,0.1); /* Параметры тени */
+}
 
 .navbar {
     margin-bottom: 0;
