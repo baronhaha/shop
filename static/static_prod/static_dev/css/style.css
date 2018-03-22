@@ -51,7 +51,21 @@ transform: rotate(1deg);}
     padding-bottom: 155px;
 }
 .aboutfon{
-    background-color: #fffcff;
+   /* background-color: #fffcff;*/
+    /*background: linear-gradient(to top, #B1A7D3, #FBF4FB 5%);*/
+  /*  background: radial-gradient(ellipse farthest-corner at 300px 100px, #FBF4FB,#B1A7D3);*/
+    /* IE10+ */
+background-image: -ms-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.7) 1%, rgba(255,255,255,0.7) 30%);
+
+background-image: -moz-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.7) 1%, rgba(255,255,255,0.7) 30%);
+
+background-image: -o-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.7) 1%, rgba(255,255,255,0.7) 30%);
+
+background-image: -webkit-gradient(radial, right bottom, 0, right bottom, 572, color-stop(1, rgba(188,178,217,0.7)), color-stop(30, rgba(255,255,255,0.7)));
+
+background-image: -webkit-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.7) 1%, rgba(255,255,255,0.7) 30%);
+
+background-image: radial-gradient(ellipse farthest-corner at right bottom, rgba(188,178,217,0.7) 1%, rgba(255,255,255,0.7) 30%);
     border: 1px solid;
     border-top-right-radius: 120px;
     border-top-left-radius: 120px;
