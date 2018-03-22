@@ -55,23 +55,24 @@ transform: rotate(1deg);}
     /*background: linear-gradient(to top, #B1A7D3, #FBF4FB 5%);*/
   /*  background: radial-gradient(ellipse farthest-corner at 300px 100px, #FBF4FB,#B1A7D3);*/
     /* IE10+ */
-background-image: -ms-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.6) 1%, rgba(255,255,255,1) 30%);
+background-image: -ms-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.6) 1%, rgba(255,255,249,1) 30%);
 
-background-image: -moz-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.6) 1%, rgba(255,255,255,1) 30%);
+background-image: -moz-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.6) 1%, rgba(255,255,249,1) 30%);
 
-background-image: -o-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.6) 1%, rgba(255,255,255,1) 30%);
+background-image: -o-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.6) 1%, rgba(255,255,249,1) 30%);
 
-background-image: -webkit-gradient(radial, right bottom, 0, right bottom, 572, color-stop(1, rgba(188,178,217,0.6)), color-stop(30, rgba(255,255,255,1)));
+background-image: -webkit-gradient(radial, right bottom, 0, right bottom, 572, color-stop(1, rgba(188,178,217,0.6)), color-stop(30, rgba(255,255,249,1)));
 
-background-image: -webkit-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.6) 1%, rgba(255,255,255,1) 30%);
+background-image: -webkit-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.6) 1%, rgba(255,255,249,1) 30%);
 
-background-image: radial-gradient(ellipse farthest-corner at right bottom, rgba(188,178,217,0.6) 1%, rgba(255,255,255,1) 30%);
+background-image: radial-gradient(ellipse farthest-corner at right bottom, rgba(188,178,217,0.6) 1%, rgba(255,255,249,1) 30%);
     border: 1px solid;
-    border-top-right-radius: 120px;
-    border-top-left-radius: 120px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom: 1px solid;
     border-color: #d9edf7;
-    box-shadow: 0 0 30px rgba(68,34,142,0.3); /* Параметры тени */
-    margin-top: 15px;
+    box-shadow: 0 0 100px rgba(188,178,217,0.4); /* Параметры тени */
+
 }
 
 .navbar {
