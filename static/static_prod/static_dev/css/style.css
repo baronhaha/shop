@@ -54,10 +54,11 @@ transform: rotate(1deg);}
     background-color: #fffcff;
     border: 1px solid;
     border-radius: 5px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
     border-color: #d9edf7;
     box-shadow: 0 0 6px rgba(68,234,242,0.1); /* Параметры тени */
+    margin-top: 15px;
 }
 
 .navbar {
