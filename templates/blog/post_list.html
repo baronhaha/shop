@@ -1,5 +1,7 @@
  {% extends 'base.html' %}
 {% load static %}
+{% load thumbnail %}
+
 
 
 {% block content %}
@@ -21,8 +23,19 @@
 
 
    <a class="hrefblog" href="{{ post.get_absolute_url }}">
+
+
+
        <div class="titlealign bgfordescription2">
-          <h4>{{ post.title }}</h4><h6><p>{{ post.datetime }} Рубрика: {{ post.category}}</h6>
+<h6><p>{{ post.datetime }} Рубрика: {{ post.category}}</h6>
+
+           {% thumbnail post.category.image "80x80" crop="center" as im %}
+                <img src="{{ post.category.image.url }}" width="{{ im.width }}" height="{{ im.height }}">
+           {% endthumbnail %}
+
+
+
+ <h4>{{ post.title }}</h4>
           <hr width="100%"/><h5>{{ post.short_content }}</h5>
        </div>
 

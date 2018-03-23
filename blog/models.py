@@ -1,13 +1,15 @@
 #coding: utf-8
 from django.db import models
 from ckeditor_uploader.fields import RichTextUploadingField
+from sorl.thumbnail import ImageField
+
 from django.contrib.contenttypes.fields import GenericRelation
 
 
 class PostCategory(models.Model):
     name = models.CharField(max_length=64, blank=True, null=True, default=None)
     is_active = models.BooleanField(default=True)
-
+    image = models.ImageField(upload_to='products_image/')
 
     def __str__(self):
       return "%s" % self.name
@@ -16,6 +18,8 @@ class PostCategory(models.Model):
     class Meta:
        verbose_name = 'Категория поста'
        verbose_name_plural = 'Категория постов'
+
+
 
 class Post(models.Model):
 

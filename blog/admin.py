@@ -14,3 +14,4 @@ admin.site.register(PostCategory, PostCategoryAdmin)
 
 
 admin.site.register(Post)
+
