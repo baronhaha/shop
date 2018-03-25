@@ -32,9 +32,24 @@ html, body{
     width: 550px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 692px) {
   .container-fluid {
-    width: 970px;
+    width: 680px;
+  }
+}
+@media (min-width: 792px) {
+  .container-fluid {
+    width: 780px;
+  }
+}
+@media (min-width: 892px) {
+  .container-fluid {
+    width: 880px;
+  }
+}
+@media (min-width: 998px) {
+  .container-fluid {
+    width: 980px;
   }
 }
 @media (min-width: 1100px) {
