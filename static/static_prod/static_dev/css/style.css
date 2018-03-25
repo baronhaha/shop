@@ -217,24 +217,25 @@ background-image: radial-gradient(ellipse farthest-corner at right bottom, rgba(
    margin-bottom: 10px;
 }
 .back1{
-    font-size: x-large;
-    color: #56416e;
-    display: inline-block;
-    padding-left: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
+    height: 96px;
+    width: 96px;
+transition: transform .1s;
+}
+.back1:hover{
+    height: 96px;
+    width: 96px;
+transform: scale(0.9);
 }
 .back{
-    font-size: x-large;
-    font-family: Lobster;
-    color: #56416e;
-    display: inline-block;
-    padding-left: 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-image: url("/static/static_dev/img/icons_goldteamus_back.png");
+    height: 96px;
+    width: 95px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
 
 }
+
+
 
 .hrefmain:hover{
 
@@ -382,15 +383,16 @@ text-decoration:none !important;
 }
 .zoom{
     transition: transform .4s; /* Animation */
+z-index: 5;
 
 }
 
 .zoom:hover{
-    transform: scale(1.7);
+    transform: scale(1.5);
     margin-top: 10%;
-    z-index: 5;
-    margin-left: 20%;
-    margin-bottom: 15%;
+margin-left: 8%;
+
+
 }
 
 .zoom2{
@@ -409,14 +411,6 @@ text-decoration:none !important;
   width: 100%;
   height: auto;
   z-index: 5;
-}
-
-.img-responsive2 {
-  display: inline-block;
-  width: 100%;
-  height: auto;
-  z-index: 5;
-
 }
 
 

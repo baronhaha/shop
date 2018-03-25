@@ -23,9 +23,9 @@
                           <div class="col-lg-4 col-md-4 col-sm-5 collg4index">
 
                   {% for image_item in product.productimage_set.all %}
-                    <div class="product-image-item hidden-xs">
-                    <div class="zoom">
-                        <img src="{{ image_item.image.url }}" class="img-responsive2 center-block img-thumbnail"/>
+                    <div class="product-image-item zoom hidden-xs">
+                    <div class="">
+                        <img src="{{ image_item.image.url }}" class="img-responsive center-block img-thumbnail"/>
 
                     </div>
                     </div>
@@ -86,8 +86,7 @@
                                              </div>
                                          </form>
 
-                                         <div class="glyphicon glyphicon-arrow-left back1"></div>
-                                         <div class="back"><a href="javascript:history.go(-1)">Назад</a></div>
+
 
                                     </div>
 
@@ -95,7 +94,14 @@
 
                                  </div>
                               </div>
+
+                            <div class="back1">
+                             <a href="javascript:history.go(-1)"><div class="back"></div></a>
+                            </div>
+
+
                         </div>
+
 
 
             </div>
