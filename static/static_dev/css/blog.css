@@ -11,6 +11,18 @@
     box-shadow: 0 0 6px rgba(0,0,0,0.15); /* Параметры тени */
 
 }
+.containerbackground{
+    background-color: #fffcff;
+    border-radius: 8px;
+    margin-bottom: 8px;
+
+    border: 1px solid;
+    border-color: gainsboro;
+    box-shadow: 0 0 6px rgba(0,0,0,0.15);
+    color: black;
+    font-size: 18px;
+}
+
 .affix {
     color: black;
     padding: 4px 4px 4px 4px;
@@ -24,7 +36,8 @@
 .img-cat{
     position: absolute;
 }
-@media (max-width: 1200px) {
+
+@media (max-width: 1800px) {
   .affix {
     position: static;
   }
@@ -35,15 +48,24 @@
     padding-right: 7px;
     padding-top: 0;
 }
-.hrefblog:hover{
+.marginblog{
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.blogmargin{
+    margin-right: 2px;
+    margin-right: 2px;
+}
+
+.href:hover{
 
 text-decoration:none !important;
 }
-.hrefblog:visited{
+.href:visited{
     color: #8F8F8F /* Цвет посещенных ссылок */
 }
 
-.hrefblog:active{
+.href:active{
 
     text-decoration:none !important;
 }

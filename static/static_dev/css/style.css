@@ -22,6 +22,11 @@ html, body{
 .delete-item{
     color: #761c19;
 }
+@media (min-width: 398px) {
+  .container-fluid {
+    width: 388px;
+  }
+}
 @media (min-width: 450px) {
   .container-fluid {
     width: 440px;
@@ -220,17 +225,25 @@ background-image: radial-gradient(ellipse farthest-corner at right bottom, rgba(
     background-color: ghostwhite;
     border: 1px solid;
     border-color: #d9edf7;
-    box-shadow: 0 0 1px rgba(0,0,0.1,0.2); /* Параметры тени */
+    box-shadow: 1px 2px 4px rgba(190,206,209,0.3); /* Параметры тени */
     border-radius: 3px;
 
     border-bottom-right-radius: 30px;
     border-top-left-radius: 10px;
     padding-right: 2px;
     padding-left: 2px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: transform .2s; /* Animation */
 
-   margin-top: 10px;
-   margin-bottom: 10px;
 }
+
+.bgfordescription2:hover{
+    transform: scale(0.95);
+}
+
 .back1{
     height: 96px;
     width: 96px;
