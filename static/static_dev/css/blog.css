@@ -1,15 +1,25 @@
 
 .containerbackground{
-    background-color: #fffcff;
+    /*background-color: #fffcff;*/
+    background: linear-gradient( #bbb, transparent 1px), linear-gradient( 90deg, #bbb, transparent 1px);
+    background-size: 10px 10px;
+    background-position: center center;
     border-radius: 8px;
     margin-bottom: 8px;
-
     border: 1px solid;
     border-color: gainsboro;
     box-shadow: 0 0 6px rgba(0,0,0,0.15);
-    color: black;
-    font-size: 18px;
 }
+
+.containerbackgroundpostdetail{
+    background-color: #fffcff;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    border: 1px solid;
+    border-color: gainsboro;
+    box-shadow: 0 0 6px rgba(0,0,0,0.15);
+}
+
 
 .affix {
     color: black;
@@ -25,7 +35,7 @@
     position: absolute;
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 900px) {
   .affix {
     position: static;
   }
