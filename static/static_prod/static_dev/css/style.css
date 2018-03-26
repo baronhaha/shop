@@ -244,6 +244,36 @@ background-image: radial-gradient(ellipse farthest-corner at right bottom, rgba(
     transform: scale(0.95);
 }
 
+.titlealign{
+    text-align: center;
+    text-decoration: none;
+    height: 300px;
+    position: relative;
+   overflow: hidden;
+    background-color: #f8f8ff;
+
+}
+.titlealign::after {
+    content: ''; /* Выводим элемент */
+    position: absolute; /* Абсолютное позиционирование */
+    right: 0; top: 260px; /* Положение элемента */
+    height: 40px; /* Ширина градиента*/
+    width: 100%; /* Высота родителя */
+    /* Градиент */
+    background: -moz-linear-gradient(top, rgba(255,255,255, 0), #f8f8ff 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255, 0), #f8f8ff 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255, 0), #f8f8ff 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255, 0), #f8f8ff 100%);
+    background: linear-gradient(top, rgba(255,255,255, 0), #f8f8ff 100%);
+   }
+.titlealign:hover{
+    color: #002b36;
+    font-stretch: condensed;
+    background-color: #f7f3f7;
+    opacity: 30%;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
 .back1{
     height: 96px;
     width: 96px;
@@ -393,17 +423,7 @@ text-decoration:none !important;
 .color{
     color: #56416e;
 }
-.titlealign{
-    text-align: center;
-    text-decoration: none;
-}
-.titlealign:hover{
-    color: #002b36;
-    font-stretch: condensed;
-    background-color: #f7f3f7;
-    opacity: 30%;
-    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-}
+
 .indent{
     padding-left: 5px;
     padding-right: 5px;
