@@ -431,14 +431,16 @@ text-decoration:none !important;
 }
 .zoom{
     transition: transform .2s; /* Animation */
-
+    position: relative;
+    z-index: 3;
 }
 
 .zoom:hover{
     transform: scale(1.5);
     margin-top: 10%;
-margin-left: 8%;
-z-index: 6;
+    margin-left: 10%;
+    position: relative;
+    z-index: 6;
 
 }
 
@@ -453,11 +455,11 @@ z-index: 6;
 
 }
 .collg4index{
-    z-index: ;
 
 }
 .collg8index{
-    z-index: 3;
+    z-index: 2.9;
+    position: relative;
 }
 .img-responsive {
   display: inline-block;
