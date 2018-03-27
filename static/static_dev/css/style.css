@@ -127,32 +127,25 @@ transition:0.1s;
 .wrapper-content{
     overflow: auto;
     padding-bottom: 155px;
+
 }
 .aboutfon{
-   /* background-color: #fffcff;*/
-    /*background: linear-gradient(to top, #B1A7D3, #FBF4FB 5%);*/
-  /*  background: radial-gradient(ellipse farthest-corner at 300px 100px, #FBF4FB,#B1A7D3);*/
-    /* IE10+ */
-
-    background-size: 3px 3px;
-    background-position: center center;
-background-image: -ms-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.6) 1%, rgba(255,255,249,1) 30%);
-
-background-image: -moz-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.6) 1%, rgba(255,255,249,1) 30%);
-
-background-image: -o-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.6) 1%, rgba(255,255,249,1) 30%);
-
-background-image: -webkit-gradient(radial, right bottom, 0, right bottom, 572, color-stop(1, rgba(188,178,217,0.6)), color-stop(30, rgba(255,255,249,1)));
-
-background-image: -webkit-radial-gradient(right bottom, ellipse farthest-corner, rgba(188,178,217,0.6) 1%, rgba(255,255,249,1) 30%);
-
-background-image: radial-gradient(ellipse farthest-corner at right bottom, rgba(188,178,217,0.6) 1%, rgba(255,255,249,1) 30%);
+    background-color: rgba(245, 255, 244, 0.9);
     border: 1px solid;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
     border-bottom: 1px solid;
     border-color: #d9edf7;
-    box-shadow: 0 0 100px rgba(188,178,217,0.4); /* Параметры тени */
+    box-shadow: 0 10px 20px rgba(188,178,217,0.6); /* Параметры тени */
+
+    opacity: 0.99;
+}
+.aboutfon2{
+    background: linear-gradient( 45deg, #111111, transparent 2px), linear-gradient( 135deg, #cc1111, transparent 2px);
+    background-size: 15px 15px;
+    background-position: center center;
+margin-bottom: 15px;
+
 
 }
 
