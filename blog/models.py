@@ -2,7 +2,7 @@
 from django.db import models
 from ckeditor_uploader.fields import RichTextUploadingField
 from sorl.thumbnail import ImageField
-
+from django.contrib.sitemaps import Sitemap
 from django.contrib.contenttypes.fields import GenericRelation
 
 
@@ -40,4 +40,11 @@ class Post(models.Model):
         return "/blog/%i/" % self.id
 
 
+
+class BlogSitemap(Sitemap):
+    changefreq = "weekly"
+    priority = 0.8
+
+    def items(self):
+        return Post.objects.all()
 

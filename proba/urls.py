@@ -19,7 +19,20 @@ from django.contrib import admin
 
 from django.conf import settings
 from django.conf.urls.static import static
-admin.autodiscover() #функция автоматического обнаружения файлов admin.py в наших приложениях
+from django.contrib.sitemaps.views import sitemap
+from blog.models import BlogSitemap
+from landing.models import AboutSitemap, Home
+from products.models import ProductSitemap
+
+admin.autodiscover() #automatic founding function of admin.py in our app's
+
+
+sitemaps = {
+    'home': Home,
+    'posts': BlogSitemap,
+    'about': AboutSitemap,
+    'product': ProductSitemap,
+}
 
 
 
@@ -32,6 +45,7 @@ urlpatterns = [
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
     url(r'^ratings/', include('star_ratings.urls', namespace='ratings', app_name='ratings')),
     url(r'hitcount/', include('hitcount.urls', namespace='hitcount')),
+    url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
 
 
 

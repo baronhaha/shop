@@ -26,7 +26,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'pv4yw9)iqp0iq6!)n!=)36!dv@v%q6wty4x(hzw-y%5bf&lw)z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['*']
 #
 
@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'hitcount',
     'crispy_forms',
     'sorl.thumbnail',
-
+    'django.contrib.sitemaps',
 
 ]
 
@@ -72,7 +72,9 @@ ROOT_URLCONF = 'proba.urls'
 
 TEMPLATES = [
     {
+
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+
         'DIRS': [os.path.join(BASE_DIR, 'templates')]
         ,
         'APP_DIRS': True,

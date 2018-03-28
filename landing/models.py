@@ -1,6 +1,7 @@
+from django.shortcuts import render
 from django.db import models
 from ckeditor_uploader.fields import RichTextUploadingField
-
+from django.contrib.sitemaps import Sitemap
 
 class Subscriber(models.Model):
     email = models.EmailField()
@@ -24,3 +25,22 @@ class About(models.Model):
     class Meta:
         verbose_name = 'О нас'
         verbose_name_plural = 'О нас'
+
+class AboutSitemap(Sitemap):
+    changefreq = "monthly"
+    priority = 1
+
+    def items(self):
+        return ['about']
+
+    def location(self, item):
+        return reversed(item)
+
+
+class Home(Sitemap):
+    changefreq = "monthly"
+    priority = 1
+
+
+    def home(request):
+        return render(request, 'landing/home.html', locals())

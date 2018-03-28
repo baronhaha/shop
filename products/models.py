@@ -2,6 +2,7 @@ from django.db import models
 from ckeditor_uploader.fields import RichTextUploadingField
 from django.utils import timezone
 from django import forms
+from django.contrib.sitemaps import Sitemap
 
 
 
@@ -35,6 +36,14 @@ class Product(models.Model):
     class Meta:
         verbose_name = 'Товар'
         verbose_name_plural = 'Товары'
+
+
+class ProductSitemap(Sitemap):
+    changefreq = "monthly"
+    priority = 0.9
+
+    def items(self):
+        return Product.objects.all()
 
 
 class ProductImage(models.Model):
