@@ -18,7 +18,6 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
 
@@ -176,6 +175,8 @@ ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 DISQUS_API_KEY = 'HiElGsTlaFfQUtWFh7yRku29SG0mfRRPiIFDGkZfOYtlaYGsVtImaH4uq2dhYUAq'
 DISQUS_WEBSITE_SHORTNAME = 'goldteamus'
+
+
 
 CKEDITOR_UPLOAD_PATH = "uploads/"
 

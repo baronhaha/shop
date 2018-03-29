@@ -7,9 +7,10 @@
 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
     <a class="hrefmain" href="{% url 'product' product_image.product.id %}">
  <div class="product-item bw">
-     <div class="imgbox">
+     <div class="imgbox blink">
 
-             <img src="{{ product_image.image.url }}" class="img-responsive img-rounded center-block">
+
+             <img src="{{ product_image.image.url }}" alt="{{ product_image.product.alt }}" title="{{ product_image.product.title }}" class="img-responsive img-rounded center-block">
 
      </div>
 
@@ -17,7 +18,7 @@
 
        {% if product_image.product.discount %}
         <div class="discount-container">
-            <span>{{ product_image.product.discount }}%</span>
+            <span>{{ product_image.product.discount }}</span>
         </div>
       {% endif %}
 
@@ -30,6 +31,7 @@
      </div>
 
  </div>
+
 
 
      </a>

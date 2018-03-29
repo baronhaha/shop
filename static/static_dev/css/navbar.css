@@ -2,7 +2,7 @@
 
 /* цвет фона и рамки навигационного меню */
 .navbar-default {
-   z-index: 4;
+   z-index: 5;
     background: #c8bfdf;
     border-color: lightgrey;
     position: fixed;

@@ -195,6 +195,8 @@ margin-bottom: 15px;
     bottom: 5px;
     text-shadow: 3px 3px 6px #8C7BB2;
 }
+
+
 .name{
     font-family: 'Amatic SC', cursive;
     text-shadow: 4px 4px 11px #002b36;
@@ -311,13 +313,14 @@ text-decoration:none !important;
     background-color: #F9F5FF;
     border: 1px solid lightgrey;
     position: relative;
+    z-index: 3;
     padding: 3px;
     text-align: center;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Параметры тени */
+   /* box-shadow: 0 0 10px rgba(0,0,0,0.2); !* Параметры тени *!*/
     background: linear-gradient(to bottom, #FBF4FB 55%, rgba(81, 76, 116, 0.15), rgba(255, 255, 255, 1));
    /* background: linear-gradient(to bottom, #FBF4FB, rgba(81, 76, 116, 0.6), );*/
-
+    box-shadow: 0 0 5px rgba(2,2,2,0.1);
     margin-bottom: 10px;
   #  animation-name: expandOpen;
    # -webkit-animation-name: expandOpen;
@@ -328,9 +331,25 @@ text-decoration:none !important;
    # animation-timing-function: ease-out;
    # -webkit-animation-timing-function: ease-out;
 
+    -o-transition: transform 3s linear;
+	-ms-transition: transform 3s linear;
+	-moz-transition: transform 3s linear;
+	-webkit-transition: transform 3s linear;
+	transition: transform 3s linear;
+
     #visibility: visible !important;
 
 }
+.product-item:hover{
+
+	/*-o-transform: rotate3d(2, 1, 0, 300deg);
+	-ms-transform: rotate3d(2, 1, 0, 300deg);
+	-moz-transform: rotate3d(2, 1, 0, 300deg);
+	-webkit-transform: rotate3d(2, 1, 0, 300deg);
+	transform: rotate3d(2, 1, 0, 300deg);*/
+
+}
+
 @keyframes expandOpen {
     0% {
         transform: scale(1.8);
@@ -375,10 +394,12 @@ text-decoration:none !important;
 }
 
 .title{
+    line-height: 2;
     text-align: center;
     color: currentColor;
+    font-size: 36px;
     font-weight: 100;
-    line-height: 50px;
+
 }
 
 .title2{
@@ -451,7 +472,7 @@ text-decoration:none !important;
 
 }
 .collg8index{
-    z-index: 2.9;
+    z-index: 3;
     position: relative;
 }
 .img-responsive {
