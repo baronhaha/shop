@@ -8,7 +8,7 @@ from django.views.decorators.csrf import ensure_csrf_cookie
 
 class PostsListView(ListView): # представление в виде списка
     model = Post               # модель для представления
-    paginate_by = 10
+    paginate_by = 15
 
 
 
