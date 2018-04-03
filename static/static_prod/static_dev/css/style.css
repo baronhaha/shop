@@ -92,11 +92,7 @@ html, body{
     width: 1680px;
   }
 }
-@media (min-width: 1800px) {
-  .container-fluid {
-    width: 1770px;
-  }
-}
+
 .contacts{
     font-family: Lobster;
     font-size: 18px;
@@ -432,6 +428,17 @@ text-decoration:none !important;
 .product-description-tabs{
 
     color: #66512c;
+}
+.bgorder{
+    background-color: white;
+    border: 1px solid;
+    border-color: #d9edf7;
+    box-shadow: 0 0 2px rgba(0,0,0.1,0.1); /* Параметры тени */
+    border-radius: 5px;
+
+    margin-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .color{
