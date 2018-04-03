@@ -7,6 +7,8 @@
     <list default="true" id="68a09b6d-72ed-4338-9ba9-f72f910a6b2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static_dev/css/style.css" afterPath="$PROJECT_DIR$/static/static_dev/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/orders/order.html" afterPath="$PROJECT_DIR$/templates/orders/order.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,8 +42,8 @@
       <file leaf-file-name="order.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/orders/order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="164">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,8 +52,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/static_dev/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="827" column="134" lean-forward="false" selection-start-line="827" selection-start-column="134" selection-end-line="827" selection-end-column="134" />
+            <state relative-caret-position="423">
+              <caret line="821" column="7" lean-forward="true" selection-start-line="821" selection-start-column="7" selection-end-line="821" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -122,13 +124,10 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="100" column="69" lean-forward="true" selection-start-line="100" selection-start-column="69" selection-end-line="100" selection-end-column="69" />
+            <state relative-caret-position="1818">
+              <caret line="134" column="37" lean-forward="false" selection-start-line="134" selection-start-column="37" selection-end-line="134" selection-end-column="37" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,10 +208,10 @@
         <option value="$PROJECT_DIR$/orders/views.py" />
         <option value="$PROJECT_DIR$/landing/forms.py" />
         <option value="$PROJECT_DIR$/landing/views.py" />
-        <option value="$PROJECT_DIR$/templates/orders/order.html" />
         <option value="$PROJECT_DIR$/templates/landing/home.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/orders/order.html" />
         <option value="$PROJECT_DIR$/static/static_dev/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/proba/settings.py" />
       </list>
     </option>
@@ -223,9 +222,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="424" />
-    <option name="y" value="105" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="299" />
+    <option name="y" value="207" />
     <option name="width" value="1635" />
     <option name="height" value="925" />
   </component>
@@ -245,6 +244,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,12 +268,16 @@
               <item name="proba" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="proba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proba" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="orders" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,19 +289,19 @@
     <property name="SearchEverywhereHistoryKey" value="bgorder&#9;null&#9;null&#10;bgfor&#9;null&#9;null&#10;price&#9;null&#9;null&#10;aboutfon&#9;null&#9;null&#10;img-responsive2&#9;null&#9;null&#10;collg&#9;null&#9;null&#10;img-res&#9;null&#9;null&#10;img-re&#9;null&#9;null&#10;zoom2&#9;null&#9;null&#10;collg8&#9;null&#9;null&#10;hrefmain&#9;null&#9;null&#10;imgbox&#9;null&#9;null&#10;product-&#9;null&#9;null&#10;titlea&#9;null&#9;null&#10;hrefblog&#9;null&#9;null&#10;titlealign&#9;null&#9;null&#10;product-i&#9;null&#9;null&#10;product-im&#9;null&#9;null&#10;section&#9;null&#9;null&#10;bw &#9;null&#9;null&#10;nopa&#9;null&#9;null&#10;product-ima&#9;null&#9;null&#10;text&#9;FILE&#9;file://C:/proba/ferro/Lib/site-packages/django/contrib/messages/context_processors.py&#10;contacts&#9;null&#9;null&#10;basetitle&#9;null&#9;null&#10;messages&#9;null&#9;null&#10;#message&#9;null&#9;null&#10;favicon&#9;FILE&#9;file://C:/proba/static/static_dev/favicons/favicon.ico&#10;average&#9;null&#9;null&#10;js&#9;FILE&#9;file://C:/proba/static/static_dev/js/chat.js&#10;vkbottom&#9;null&#9;null&#10;badge-n&#9;null&#9;null&#10;badge&#9;null&#9;null&#10;uh1&#9;null&#9;null&#10;SESSION_COOKIE&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\proba\static\static_dev\img" />
-      <recent name="C:\proba\static\static_dev\js" />
-      <recent name="C:\proba\templates" />
-      <recent name="C:\proba" />
-      <recent name="C:\proba\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\proba\templates" />
       <recent name="C:\proba\templates\landing" />
       <recent name="C:\proba" />
       <recent name="C:\proba\static\static_dev\img" />
       <recent name="C:\proba\templates\firstblog" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\proba\static\static_dev\img" />
+      <recent name="C:\proba\static\static_dev\js" />
+      <recent name="C:\proba\templates" />
+      <recent name="C:\proba" />
+      <recent name="C:\proba\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -419,9 +424,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="424" y="105" width="1635" height="925" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17564997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14909478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19595449" sideWeight="0.40552995" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -429,7 +434,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3249052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25608954" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19595449" sideWeight="0.59447" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16630901" sideWeight="0.59447" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -815,14 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/orders/order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/landing/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -842,24 +839,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/templates/orders/order.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="100" column="69" lean-forward="true" selection-start-line="100" selection-start-column="69" selection-end-line="100" selection-end-column="69" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="164">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/static_dev/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="827" column="134" lean-forward="false" selection-start-line="827" selection-start-column="134" selection-end-line="827" selection-end-column="134" />
+        <state relative-caret-position="423">
+          <caret line="821" column="7" lean-forward="true" selection-start-line="821" selection-start-column="7" selection-end-line="821" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1818">
+          <caret line="134" column="37" lean-forward="false" selection-start-line="134" selection-start-column="37" selection-end-line="134" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

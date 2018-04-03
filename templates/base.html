@@ -37,6 +37,26 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+$(document).ready(function(){
+
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+
+});
+</script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <script src="/static/static_dev/js/main.js"></script>
 
@@ -112,5 +132,6 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
+<a href="#" class="scrollup hidden-xs">Наверх</a>
 </body>
 </html>

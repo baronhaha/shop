@@ -813,6 +813,20 @@ text-decoration:none !important;
   }
 }
 
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.5;
+position:fixed;
+z-index: 13;
+bottom:100px;
+right:100px;
+display:none;
+text-indent:-9999px;
+background: url('/static/static_dev/img/iconup.png') no-repeat;
+}
+
+
 #popup__toggle{
     bottom: 0px;
     left: 0px;
