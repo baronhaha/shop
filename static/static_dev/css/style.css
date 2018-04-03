@@ -268,19 +268,20 @@ margin-bottom: 15px;
 }
 
 .back1{
-    height: 96px;
-    width: 96px;
-transition: transform .1s;
+    height: 65px;
+    width: 65px;
+
+transition: transform .06s;
 }
 .back1:hover{
-    height: 96px;
-    width: 96px;
+    height: 65px;
+    width: 65px;
 transform: scale(0.9);
 }
 .back{
     background-image: url("/static/static_dev/img/icons_goldteamus_back.png");
-    height: 96px;
-    width: 95px;
+    height: 65px;
+    width: 65px;
     background-repeat: no-repeat;
     margin-bottom: 50px;
 
@@ -395,7 +396,7 @@ text-decoration:none !important;
     line-height: 2;
     text-align: center;
     color: currentColor;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 100;
 
 }
@@ -814,16 +815,23 @@ text-decoration:none !important;
 }
 
 .scrollup{
-width:40px;
-height:40px;
-opacity:0.5;
-position:fixed;
-z-index: 13;
-bottom:100px;
-right:100px;
-display:none;
-text-indent:-9999px;
-background: url('/static/static_dev/img/iconup.png') no-repeat;
+    width:40px;
+    height:40px;
+    opacity:0.5;
+    position:fixed;
+    z-index: 13;
+    bottom:100px;
+    right:100px;
+    display:none;
+    text-indent:-9999px;
+    background: no-repeat;
+    transition: transform .15s;
+}
+
+.scrollup:hover{
+    height: 40px;
+    width: 40px;
+transform: scale(1.2);
 }
 
 
