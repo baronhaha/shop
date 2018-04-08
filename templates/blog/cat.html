@@ -1,0 +1,12 @@
+{% block cat %}
+
+    Сортировка по рубрике:
+               {% for category in  %}
+                   {% autoescape off %}
+                       <a href="/blog/category/{{ category.slug }}"><h4>{{ category.name }}</h4></a>
+                   {% endautoescape %}
+    {% empty %}
+    <p>Категории отсутствуют</p>
+    {% endfor %}
+
+{% endblock %}

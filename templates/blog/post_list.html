@@ -13,44 +13,72 @@
 
     <div class="container-fluid containerbackground">
      <div class="row-fluid">
+    <div class="col-lg-10 col-sm-10 col-md-10 col-xs-12">
 
-    {% for post in object_list %}
+                <div class="hidden-lg hidden-sm hidden-md" align="center">
+                    Сортировка по рубрике:
+                           {% for category in category_list %}
+                               {% autoescape off %}
+                                   <a href="/blog/category/{{ category.slug }}"><h4>{{ category.name }}</h4></a>
+                               {% endautoescape %}
+                                {% empty %}
+                                 <p>Категории отсутствуют</p>
+                           {% endfor %}
+                </div>
 
+        <h1 align="center">Список всех статей</h1>
+            {% for post in object_list %}
 
-    {% autoescape off %}
+                {% autoescape off %}
+                    <div class="blogmargin">
+                        <a class="col-lg-3 col-md-4 col-sm-6 col-xs-12 href" href="{{ post.get_absolute_url }}">
 
+                            <div class="titlealign bgfordescription2">
+                                <h6><p>{{ post.datetime }} Рубрика: {{ post.category.name}}</h6>
 
+                               {% thumbnail post.category.image "80x80" crop="center" as im %}
+                                    <img src="{{ post.category.image.url }}" width="{{ im.width }}" height="{{ im.height }}">
+                               {% endthumbnail %}
 
- <div class="blogmargin">
+                                <h4>{{ post.title }}</h4>
+                                 <hr width="100%"/><h5>{{ post.short_content }}</h5>
+                            </div>
+                        </a>
+                    </div>
+                {% endautoescape %}
 
-    <a class="col-lg-3 col-md-4 col-sm-6 col-xs-12 href" href="{{ post.get_absolute_url }}">
+            {% empty %}
+            <p>Нет постов</p>
+            {% endfor %}
 
-        <div class="titlealign bgfordescription2">
-           <h6><p>{{ post.datetime }} Рубрика: {{ post.category}}</h6>
-
-           {% thumbnail post.category.image "80x80" crop="center" as im %}
-                <img src="{{ post.category.image.url }}" width="{{ im.width }}" height="{{ im.height }}">
-           {% endthumbnail %}
-
-            <h4>{{ post.title }}</h4>
-          <hr width="100%"/><h5>{{ post.short_content }}</h5>
-       </div>
-
-    </a>
-
- </div>
-
-
-
-    {% endautoescape %}
-
-    {% empty %}
-    <p>Нет постов</p>
-    {% endfor %}
-
-         </div>
 
     </div>
+
+
+      <div id="right" class="col-lg-2 col-sm-2 col-md-2 col-xs-12">
+      <!-- Блок, который необходимо чтобы оставался на одном месте при прокручивании страницы -->
+      <div class="affix" id="myAffix" >
+
+        Сортировка по рубрике:
+               {% for category in category_list %}
+                   {% autoescape off %}
+                       <a href="/blog/category/{{ category.slug }}"><h4>{{ category.name }}</h4></a>
+                   {% endautoescape %}
+    {% empty %}
+    <p>Категории отсутствуют</p>
+    {% endfor %}
+
+      </div>
+    </div>
+
+
+
+
+
+     </div>
+
+    </div>
+
 
 
 

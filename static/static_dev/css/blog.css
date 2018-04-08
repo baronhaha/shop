@@ -10,7 +10,17 @@
     border-color: gainsboro;
     box-shadow: 0 0 6px rgba(0,0,0,0.15);
 }
-
+.containerbackground2{
+    /*background-color: #fffcff;*/
+    background: linear-gradient( #d9edf7, transparent 1px), linear-gradient( 90deg, lightgrey, transparent 1px);
+    background-size: 4px 3px;
+    background-position: center center;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    border: 1px solid;
+    border-color: gainsboro;
+    box-shadow: 0 0 6px rgba(0,0,0,0.15);
+}
 .containerbackgroundpostdetail{
     background-color: #fffcff;
     border-radius: 8px;
@@ -54,6 +64,7 @@
     margin-right: 2px;
     margin-left: 2px;
 }
+
 
 .href:hover{
 

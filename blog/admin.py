@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 from django.contrib import admin
-from blog.models import Post, PostCategory
+from blog.models import Post, Category
 
 
-class PostCategoryAdmin (admin.ModelAdmin):
-    list_display = [field.name for field in PostCategory._meta.fields]
+class CategoryAdmin (admin.ModelAdmin):
+    list_display = [field.name for field in Category._meta.fields]
 
 
     class Meta:
-        model = PostCategory
+        model = Category
 
-admin.site.register(PostCategory, PostCategoryAdmin)
+admin.site.register(Category, CategoryAdmin)
 
 
 admin.site.register(Post)

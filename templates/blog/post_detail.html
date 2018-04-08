@@ -18,15 +18,29 @@
 
 
 
-<div class="container">
-  <div class="row">
-      <div class="col-xs-12 col-lg-9 containerbackgroundpostdetail">
+<div class="container-fluid" style="padding:0">
+  <div class="row-fluid">
+      <div class="col-lg-9 col-sm-9 col-md-10 col-xs-12 containerbackgroundpostdetail">
+
+      <div class="hidden-lg hidden-md hidden-sm" align="center">
+            Сортировка по рубрике:
+               {% for category in category_list %}
+                   {% autoescape off %}
+                       <a href="/blog/category/{{ category.slug }}"><h4>{{ category.name }}</h4></a>
+                   {% endautoescape %}
+                    {% empty %}
+                <p>Категории отсутствуют</p>
+                {% endfor %}
+        </div>
 
         {% autoescape off %}
-    <h1>{{ post.title }}</h1><h5>Рубрика: {{ post.category}}</h5>
+            <h1 align="center">{{ post.title }}</h1><h5>Рубрика: <strong>{{ post.category}}</strong></h5>
             <h5><p>{{ post.datetime }}</p></h5>
 
     <p>{{ post.content }}</p>
+
+
+
 
 
 
@@ -53,21 +67,37 @@
 
         </p>
     </div>
-    <div id="right" class="col-xs-12 col-lg-3">
+
+    <div id="right" class="rightgroup1 col-lg-3 col-sm-3 col-md-2 col-xs-12">
       <!-- Блок, который необходимо чтобы оставался на одном месте при прокручивании страницы -->
-      <div class="affix" id="myAffix" >
 
-        Все статьи:
+        <div class="affix" id="myAffix">
+        <div class="hidden-xs">
+            Сортировка по рубрике:
+               {% for category in category_list %}
+                   {% autoescape off %}
+                       <a href="/blog/category/{{ category.slug }}"><h4>{{ category.name }}</h4></a>
+                   {% endautoescape %}
+                    {% empty %}
+                <p>Категории отсутствуют</p>
+                {% endfor %}
+        </div>
+
+            Все статьи:
                {% for post in object_list %}
-
-        <h4><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h4>
-
-    {% empty %}
-    <p>Нет постов</p>
-    {% endfor %}
-
-      </div>
+                   <h4><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h4>
+               {% empty %}
+            <p>Нет постов</p>
+            {% endfor %}
+         </div>
     </div>
+
+
+
+
+
+
+
   </div>
 </div>
 
