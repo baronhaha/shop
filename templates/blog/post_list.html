@@ -57,19 +57,18 @@
 
       <div id="right" class="col-lg-2 col-sm-2 col-md-2 col-xs-12">
       <!-- Блок, который необходимо чтобы оставался на одном месте при прокручивании страницы -->
-      <div class="affix" id="myAffix" >
+          <div class="affix" id="myAffix" >
+              Сортировка по рубрике:
+                   {% for category in category_list %}
+                       {% autoescape off %}
+                           <a href="/blog/category/{{ category.slug }}"><h4>{{ category.name }}</h4></a>
+                       {% endautoescape %}
+                        {% empty %}
+                        <p>Категории отсутствуют</p>
+                    {% endfor %}
 
-        Сортировка по рубрике:
-               {% for category in category_list %}
-                   {% autoescape off %}
-                       <a href="/blog/category/{{ category.slug }}"><h4>{{ category.name }}</h4></a>
-                   {% endautoescape %}
-    {% empty %}
-    <p>Категории отсутствуют</p>
-    {% endfor %}
-
+          </div>
       </div>
-    </div>
 
 
 

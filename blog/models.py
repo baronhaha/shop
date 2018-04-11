@@ -9,7 +9,7 @@ from django.core.paginator import Paginator
 
 class Category(models.Model):
     name = models.CharField(max_length=64, blank=True, null=True, default=None)
-    slug = models.SlugField(verbose_name='Транслит', null=True)
+    slug = models.SlugField(verbose_name='Транслит', null=True) #
     is_active = models.BooleanField(default=True)
     image = models.ImageField(upload_to='products_image/')
 
@@ -28,6 +28,7 @@ class Category(models.Model):
 
 
 
+
 class Post(models.Model):
 
     title = models.CharField(max_length=80) # заголовок поста
@@ -39,8 +40,6 @@ class Post(models.Model):
     class Meta:
         verbose_name = 'Пост'
         verbose_name_plural = 'Посты'
-
-
 
     def __str__(self):
         return "%s" % self.title

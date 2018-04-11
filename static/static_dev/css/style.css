@@ -395,9 +395,10 @@ text-decoration:none !important;
 .title{
     line-height: 2;
     text-align: center;
-    color: currentColor;
-    font-size: 32px;
+    color: brown;
+    font-size: 26px;
     font-weight: 100;
+
 
 }
 

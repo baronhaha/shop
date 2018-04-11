@@ -10,12 +10,9 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 class PostsListView(ListView): # представление в виде списка
     model = Post # модель для представления
 
-
-
     def get_context_data(self, **kwargs):
         # Call the base implementation first to get a context
         context = super(PostsListView, self).get_context_data(**kwargs)
-        # Add in a QuerySet of all the books
         context['category_list'] = Category.objects.all()
         return context
 
@@ -23,7 +20,6 @@ class PostsListView(ListView): # представление в виде спис
 
 class PostDetailView(DetailView): # детализированное представление модели
     model = Post
-
 
     def get_context_data(self, **kwargs):
         # Call the base implementation first to get a context
@@ -39,13 +35,9 @@ class PostDetailView(DetailView): # детализированное предс�
 
 def category(request, slug):
     category = Category.objects.get(slug=slug)
-
     post = Post.objects.filter(category=category)
     paginator = Paginator(post, 3)
     page = request.GET.get('page')
-
-
-
     try:
         post = paginator.page(page)
     except PageNotAnInteger:

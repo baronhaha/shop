@@ -15,16 +15,14 @@
 <div class="container-fluid containerbackground2">
      <div class="row-fluid">
           <div class="col-lg-10 col-sm-10 col-md-10 col-xs-12">
-                <div class="catname" style="top:0">
-                   <h2>Статьи из категории: {{ category.name }}</h2>
-
-                     <div class="catimg" style="top:0">
-                       {% thumbnail category.image "80x80" crop="right" as im %}
-                          <img src="{{ category.image.url }}" width="{{ im.width }}" height="{{ im.height }}">
-                       {% endthumbnail %}
-                      </div>
-                </div>
-
+                    <div class="catname" style="top:0">
+                       <h2>Статьи из категории: {{ category.name }}</h2>
+                        <div class="catimg" style="top:0">
+                           {% thumbnail category.image "80x80" crop="right" as im %}
+                              <img src="{{ category.image.url }}" width="{{ im.width }}" height="{{ im.height }}">
+                           {% endthumbnail %}
+                        </div>
+                    </div>
 
                     <div class="" align="center">
                       {% for post in post %}
@@ -32,7 +30,6 @@
                                 <h3>{{ post.title }}</h3>
                                 {{ post.short_content }}
                             <a href="{{ post.get_absolute_url }}">подробнее..</a>
-
                             <hr width="100%" style="height:2px;border:none;color:#0e76a8;background-color:#0e76a8;"/>
                         {% endautoescape %}
                     {% endfor %}
@@ -63,13 +60,8 @@
                         </div>
                      </div>
           </div>
-
-
-
-
      </div>
-
-     </div>
+</div>
 
 
 
