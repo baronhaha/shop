@@ -36,6 +36,8 @@ class Post(models.Model):
     content = RichTextUploadingField() # текст поста
     short_content = RichTextUploadingField()
     category = models.ForeignKey(Category, verbose_name='Категория', blank=True, null=True, default=None)
+    author = models.CharField(max_length=80) # автор поста
+    authorimage = models.ImageField(upload_to='author_image/')
 
     class Meta:
         verbose_name = 'Пост'

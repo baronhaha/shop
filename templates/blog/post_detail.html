@@ -1,5 +1,6 @@
  {% extends 'base.html' %}
 {% load static %}
+{% load thumbnail %}
 
 {% comment %}
 {% load ratings %}
@@ -36,6 +37,10 @@
         {% autoescape off %}
             <h1 align="center">{{ post.title }}</h1><h5>Рубрика: <strong>{{ post.category}}</strong></h5>
             <h5><p>{{ post.datetime }}</p></h5>
+            {% thumbnail post.authorimage "80x80" crop="right" as im %}
+                              <img src="{{ post.authorimage.url }}" width="{{ im.width }}" height="{{ im.height }}">
+                           {% endthumbnail %}
+            <p>Автор: {{ post.author }}</p>
 
     <p>{{ post.content }}</p>
 
