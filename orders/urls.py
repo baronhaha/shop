@@ -10,6 +10,7 @@ urlpatterns = [
     url(r'^checkout/$', views.checkout, name='checkout'),
     url(r'^chat/$', views.chat, name='chat'),
     url(r'^order/$', views.order, name='order'),
+    url(r'^register/$', views.RegisterFormView.as_view()),
 
 
 

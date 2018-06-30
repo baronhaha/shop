@@ -10,6 +10,7 @@ from ckeditor_uploader.fields import RichTextUploadingField
 
 
 
+
 class Status(models.Model):
     name = models.CharField(max_length=24, blank=True, null=True, default=None)
     is_active = models.BooleanField(default=True)
