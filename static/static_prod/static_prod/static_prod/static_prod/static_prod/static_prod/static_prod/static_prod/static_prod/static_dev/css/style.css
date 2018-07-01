@@ -9,7 +9,7 @@ html, body{
     font-family: 'Roboto', sans-serif;
     background: #FBF4FB;
     background-position: top;
-    padding: 25px 0 0 0;
+    padding: 50px 0 0 0;
 }
 #particles-js{
     position: fixed;
@@ -821,8 +821,8 @@ text-decoration:none !important;
     opacity:0.5;
     position:fixed;
     z-index: 13;
-    bottom:100px;
-    right:100px;
+    bottom:5%;
+    right:10%;
     display:none;
     text-indent:-9999px;
     background: no-repeat;

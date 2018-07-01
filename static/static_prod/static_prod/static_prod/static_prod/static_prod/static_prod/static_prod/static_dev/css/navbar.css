@@ -6,6 +6,7 @@
     background: #c8bfdf;
     border-color: lightgrey;
     position: fixed;
+
 }
 .zakazat{
     text-shadow: 0px 0px 1px white, 0 0 1px orange;
@@ -14,6 +15,7 @@
 
     transition: transform .06s;
 }
+
 
 .navzoom:hover{
 
@@ -85,10 +87,28 @@
 
  .navbar-brand{
      font-family: 'Akronim', cursive;
-     font-size: xx-large;
+     font-size: x-large;
      color: #fffcff;
      text-shadow: 1px 1px 2px rgba(0,0,0,0.75);
-     margin-left: 0;
+     margin-left: 10px;
+     margin-bottom: auto;
+     padding-bottom: 0;
+
+
+
+ }
+ .navbar-brand2{
+     font-family: Lobster;
+     font-size: 13px;
+     color: #8F8F8F;
+     text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+     margin-top: 6px;
+    margin-bottom: 4px;
+     padding-left: 10px;
+     line-height: 1;
+     padding-right: 10px;
+     vertical-align: middle;
+
 
  }
 
