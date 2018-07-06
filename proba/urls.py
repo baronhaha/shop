@@ -46,6 +46,7 @@ urlpatterns = [
     url(r'^ratings/', include('star_ratings.urls', namespace='ratings', app_name='ratings')),
     url(r'hitcount/', include('hitcount.urls', namespace='hitcount')),
     url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
+    url('', include('social_django.urls', namespace='social')),
 
 
 

@@ -11,3 +11,4 @@ DATABASES = {
         'PORT': '',
     }
 }
+SOCIAL_AUTH_POSTGRES_JSONFIELD = True

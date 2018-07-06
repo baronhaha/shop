@@ -51,9 +51,24 @@ INSTALLED_APPS = [
     'crispy_forms',
     'sorl.thumbnail',
     'django.contrib.sitemaps',
+    'social_django',
 
 ]
 
+GOOGLE_OAUTH2_CLIENT_ID = '817624158797-rehhcqg3n6028oclnn79n3b3pipem1oq.apps.googleusercontent.com'
+GOOGLE_OAUTH2_CLIENT_SECRET = 'r1VamO_Pr6A8Y8dtkdtiWMYC'
+
+AUTHENTICATION_BACKENDS = [
+    'social_core.backends.open_id.OpenIdAuth',
+    'social_core.backends.google.GoogleOpenId',
+    'social_core.backends.google.GoogleOAuth2',
+    'social_core.backends.google.GoogleOAuth',
+    'social_core.backends.twitter.TwitterOAuth',
+    'social_core.backends.yahoo.YahooOpenId',
+    'social.backends.facebook.FacebookAppOAuth2',
+    'social.backends.facebook.FacebookOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
+]
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
@@ -81,6 +96,8 @@ TEMPLATES = [
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
+                'social_django.context_processors.backends',
+                'social_django.context_processors.login_redirect',
 
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
