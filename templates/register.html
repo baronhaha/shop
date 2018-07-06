@@ -10,12 +10,26 @@
              <h2>Ведутся работы по разделу Регистрация</h2>
          </div>
             <body>
-             <form action="" method="post">
-              {% csrf_token %}
-             <!-- as_p для того, чтобы каждый элемент формы был с новой строки -->
-              {{ form.as_p }}
-             <button type="submit">Зарегистрироваться</button>
+
+             <form method="post">
+                {% csrf_token %}
+                {% for field in form %}
+                  <p>
+                    {{ field.label_tag }}<br>
+                    {{ field }}
+                    {% if field.help_text %}
+                      <span>{{ field.help_text }}</span>
+                    {% endif %}
+                    {% for error in field.errors %}
+                      <p>{{ error }}</p>
+                    {% endfor %}
+                  </p>
+                {% endfor %}
+                <button type="submit">Отправить</button>
              </form>
+             Авторизоваться через:
+            <a href="{% url "social:begin" "google-oauth2" %}">Google+</a>
+            <a href="{% url "social:begin" "google-oauth2" %}">Google+</a>
             </body>
             </div>
         </div>

@@ -11,6 +11,8 @@ urlpatterns = [
     url(r'^chat/$', views.chat, name='chat'),
     url(r'^order/$', views.order, name='order'),
     url(r'^register/$', views.RegisterFormView.as_view()),
+    url(r'^login/$', views.LoginFormView.as_view()),
+    url(r'^/$', views.LogoutView.as_view()),
 
 
 
