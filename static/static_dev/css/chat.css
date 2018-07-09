@@ -1,24 +1,6 @@
 
 
-/*Center the weird text*/
-#weirdtext{
-    font-size: 35px;
-    font-family: "Lucida Blackletter", eufm10, blackletter;
-    color: antiquewhite;
-    max-width: 800px;
 
-    margin: 60px auto 5px auto;
-}
-
-/*Just the CSS for the quote citation*/
-
-
-/*all spans have to be block or inline block to transform*/
-#weirdtext span{
-    display: inline-block;
-    color: #66512c;
-
-}
 
 /*When JS finds a space, it replaces it with a span with .space class*/
 /*I did this so you can do stuff with the spaces if you want.*/
@@ -141,12 +123,34 @@ video{
   background-color: #B1A7D3;
   border-radius: 5px;
   border-color: #1A01CC;
-  margin: 10px 0px 0px 10px;
+  margin: 10px 10px 10px 10px;
   width: 320px;
   height: 240px;
 
 }
 button{
-    margin: 5px 0px 0px 10px !important;
-    width: 654px;}
+    margin: 5px 5px 5px 10px !important;
+    width: 654px;
+}
+#yourVideo{
+    padding: 5px;
+}
+#friendsVideo{
+    padding: 5px;
+}
+.videobox{
+    display: flex;
+    justify-content: space-between;
+}
+.videocenter{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.chattext{
+    font-family: "Almonte Snow";
+    font-size: 20px;
+    text-align: center;
+    color: #1e347b;
+}
 

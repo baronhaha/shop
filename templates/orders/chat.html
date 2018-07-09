@@ -6,25 +6,59 @@
 <meta name="description" content="GoldTeam Studio в поиске инвестиций. p2p видеочат работает в тестовом режиме">
  <meta name="keywords" content="знакомства, онлайн знакомства, видеочат, чат рулетка, videochat, p2p, webrtc" />
   <head>
-
+    <!-- Custom styles -->
+    <link rel="stylesheet" type="text/css" href="{% static "/static_dev/css/chat.css" %}">
     <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
 
   </head>
 
   <div class="container">
       <div class="row">
-          <div class="col-lg-8 col-lg-offset-2" style="margin-top: 10%">
-  <body onload="showMyFace()">
-    <video id="yourVideo" autoplay muted></video>
-    <video id="friendsVideo" autoplay></video>
+          <div class="col-lg-12">
+                            <div class="videobox">
+                               <div class="videocenter">
+                                   <body onload="showMyFace()">
+                                    <video id="yourVideo" autoplay muted></video>
+                                    <video id="friendsVideo" autoplay></video>
+                                </div>
+                            </div>
+                            <div class="videobox">
+                                <div class="videocenter">
+                                    <button onclick="showFriendsFace()" type="button" class="btn btn-lg">
+                                        <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>Call</button>
+                                </div>
+                            </div>
+
+
     <br />
-    <button onclick="showFriendsFace()" type="button" class="btn btn-lg"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Call</button>
     <script src="{% static 'static_dev/js/chat.js' %}"></script>
     <link rel="stylesheet" type="text/css" href="{% static "/static_dev/css/chat.css" %}">
 
-    <div>
-        <p id="weirdtext">Раздел находится в разработке... Если ты хочешь ускорить процесс, инвестировав в проект, свяжись с нами!</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="chattext">
+                   <p>Видеочат на 150 случайных пользователей</p>
+                    <p>Помоги развитию чата - расскажи о нас друзьям!</p>
+                        <script type="text/javascript">
+                            (function(w,doc) {
+                                if (!w.__utlWdgt ) {
+                                    w.__utlWdgt = true;
+                                    var d = doc, s = d.createElement('script'), g = 'getElementsByTagName';
+                                    s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+                                    s.src = ('https:' == w.location.protocol ? 'https' : 'http')  + '://w.uptolike.com/widgets/v1/uptolike.js';
+                                    var h=d[g]('body')[0];
+                                    h.appendChild(s);
+                                }})(window,document);
+                        </script>
+                    <div data-mobile-view="true" data-share-size="30" data-like-text-enable="false" data-background-alpha="0.0" data-pid="1773119" data-mode="share" data-background-color="#ffffff" data-share-shape="round-rectangle" data-share-counter-size="12" data-icon-color="#ffffff" data-mobile-sn-ids="fb.vk.tw.ok.wh.vb.tm." data-text-color="#000000" data-buttons-color="#FFFFFF" data-counter-background-color="#ffffff" data-share-counter-type="disable" data-orientation="horizontal" data-following-enable="false" data-sn-ids="fb.vk.tw.ok.tm." data-preview-mobile="false" data-selection-enable="true" data-exclude-show-more="false" data-share-style="1" data-counter-background-alpha="1.0" data-top-button="false" class="uptolike-buttons" ></div>
+                </div>
+
+            </div>
+        </div>
+
     </div>
+
 
 
 
